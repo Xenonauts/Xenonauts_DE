@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<GameConfig>
+
+   <!-- TEXTS AUTOSCALING -->
+   <autoscaleTexts value="true" comment="Autoscales texts to fit container. For translations." />
+  
+</GameConfig>
