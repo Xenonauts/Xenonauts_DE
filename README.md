@@ -7,4 +7,4 @@ V0.97
 - Selgald (creator)
 
 
-German translation of the game Xenonauts by Goldhawk Interactive
+German translation of the game Xenonauts
