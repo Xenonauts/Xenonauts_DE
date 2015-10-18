@@ -16,6 +16,8 @@ folgenden XML Dateien verwaltet:
 
 Im Moment sind die Texte des Hauptspiels zu 95%, Xenopedia zu 60% und Lore+ zu 90% übersetzt worden. Die Texte für XNT sind derzeit nur kompatibel aber noch nicht übersetzt worden.
 
+####Bemerkung:
+Die beiden Dateien lassen sich am besten mit dem Programm Excel editieren.
 
 ##Installation:
 
