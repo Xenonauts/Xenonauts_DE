@@ -1754,7 +1754,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Brazil</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Brazil</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Brasilien</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Briefing.AlienBase.Description</Data><NamedCell
@@ -2025,7 +2025,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Cape Town</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Cape Town</Data><NamedCell
+    <Cell><Data ss:Type="String">Kapstadt</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -2128,7 +2128,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Colombia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Colombia</Data><NamedCell
+    <Cell><Data ss:Type="String">Kolumbien</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -2226,7 +2226,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Cuba</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Cuba</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Kuba</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Cursor.Block</Data><NamedCell
@@ -4216,7 +4216,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Havana</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Havana</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Havanna</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">HeadingToWaypoint</Data><NamedCell
@@ -4242,7 +4242,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Hungary</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Hungary</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Ungarn</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">hydrofoil</Data><NamedCell
@@ -4295,7 +4295,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">India</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">India</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Indien</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Infinite</Data><NamedCell
@@ -5832,7 +5832,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Mexico City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Mexico City</Data><NamedCell
+    <Cell><Data ss:Type="String">Mexiko-Stadt</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -6216,7 +6216,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Papua New Guinea</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Papua New Guinea</Data><NamedCell
+    <Cell><Data ss:Type="String">Papua-Neuguinea</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -8327,13 +8327,13 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Singapore</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Singapore</Data><NamedCell
+    <Cell><Data ss:Type="String">Singapur</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Singapore</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Singapore</Data><NamedCell
+    <Cell><Data ss:Type="String">Singapur</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -8681,7 +8681,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Tripoli</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Tripoli</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Tripolis</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">tugboat</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8689,7 +8689,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Turkey</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Turkey</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Türkei</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">two</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8831,13 +8831,13 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">United Kingdom</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">United Kingdom</Data><NamedCell
+    <Cell><Data ss:Type="String">Vereinigtes Königreich</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">United States</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">United States</Data><NamedCell
+    <Cell><Data ss:Type="String">Vereinigte Staaten</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -9117,7 +9117,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Vladivostok</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Vladivostok</Data><NamedCell
+    <Cell><Data ss:Type="String">Wladiwostok</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -9932,7 +9932,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Yakutsk</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Yakutsk</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Jakutsk</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Yes</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -9941,7 +9941,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Rhodesia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Rhodesia</Data><NamedCell
+    <Cell><Data ss:Type="String">Rhodesien</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10113,7 +10113,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Indonesia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Indonesia</Data><NamedCell
+    <Cell><Data ss:Type="String">Indonesien</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10143,7 +10143,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Philippines</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Philippines</Data><NamedCell
+    <Cell><Data ss:Type="String">Philippinen</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10187,7 +10187,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Edinburgh</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Edinburgh</Data><NamedCell
+    <Cell><Data ss:Type="String">Edinburg</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10200,7 +10200,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Ireland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Ireland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Irland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Cork</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10208,7 +10208,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Lisbon</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Lisbon</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Lissabon</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Portugal</Data><NamedCell
@@ -10238,7 +10238,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">France</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">France</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Frankreich</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Pekanbaru</Data><NamedCell
@@ -10248,11 +10248,11 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Italy</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Italy</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Italien</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Rome</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Rome</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Rom</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Houston</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10278,7 +10278,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Canada</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Canada</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Kanada</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Ottawa</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10293,7 +10293,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Quebec City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Quebec City</Data><NamedCell
+    <Cell><Data ss:Type="String">Quebec</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10303,7 +10303,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Panama City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Panama City</Data><NamedCell
+    <Cell><Data ss:Type="String">Panama-Stadt</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10359,7 +10359,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Guatemala City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Guatemala City</Data><NamedCell
+    <Cell><Data ss:Type="String">Guatemala Stadt</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10394,7 +10394,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Bolivia</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Bolivia</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Bolivien</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">La Paz</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10415,7 +10415,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">French Guiana</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">French Guiana</Data><NamedCell
+    <Cell><Data ss:Type="String">Französisch-Guayana</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10448,25 +10448,25 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Norway</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Norway</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Norwegen</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Denmark</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Denmark</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Dänemark</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Copenhagen</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Copenhagen</Data><NamedCell
+    <Cell><Data ss:Type="String">Kopenhagen</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Kiev</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Kiev</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Kiew</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Prague</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Prague</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Prag</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Ukraine</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10474,16 +10474,16 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Warsaw</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Warsaw</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Warschau</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Poland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Poland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Polen</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Czechslovakia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Czechslovakia</Data><NamedCell
+    <Cell><Data ss:Type="String">Tschechoslowakei</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10494,11 +10494,11 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Iceland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Iceland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Island</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Finland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Finland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Finnland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Helsinki</Data><NamedCell
@@ -10514,15 +10514,15 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Sweden</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Sweden</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Schweden</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Athens</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Athens</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Athen</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Greece</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Greece</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Griechenland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Baku</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10531,12 +10531,12 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Azerbaijan</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Azerbaijan</Data><NamedCell
+    <Cell><Data ss:Type="String">Aserbaidschan</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Tehran</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Tehran</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Teheran</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Iran</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10557,13 +10557,13 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Mongolia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Mongolia</Data><NamedCell
+    <Cell><Data ss:Type="String">Mongolei</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Hong Kong</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Hong Kong</Data><NamedCell
+    <Cell><Data ss:Type="String">Hongkong</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10585,7 +10585,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">South Korea</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">South Korea</Data><NamedCell
+    <Cell><Data ss:Type="String">Südkorea</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10603,7 +10603,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Madagascar</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Madagascar</Data><NamedCell
+    <Cell><Data ss:Type="String">Madagaskar</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10613,19 +10613,19 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Mozambique</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Mozambique</Data><NamedCell
+    <Cell><Data ss:Type="String">Mosambik</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Dar es Salaam</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Dar es Salaam</Data><NamedCell
+    <Cell><Data ss:Type="String">Daressalam</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Tanzania</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Tanzania</Data><NamedCell
+    <Cell><Data ss:Type="String">Tansania</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10639,7 +10639,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Mogadishu</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Mogadishu</Data><NamedCell
+    <Cell><Data ss:Type="String">Mogadischu</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10649,7 +10649,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Khartoum</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Khartoum</Data><NamedCell
+    <Cell><Data ss:Type="String">Khartum</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
@@ -10662,15 +10662,15 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Morocco</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Morocco</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Marokko</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Algiers</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Algiers</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Algier</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Algeria</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Algeria</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Algerien</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Churchill</Data><NamedCell
@@ -10680,7 +10680,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Germany</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Germany</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Deutschland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Berlin</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10688,11 +10688,11 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Vienna</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Vienna</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Wien</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Austria</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Austria</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Österreich</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">experience.america1</Data><NamedCell
