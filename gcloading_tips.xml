@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<GCLoadingTips>
+
+<Tip showOnFirstGroundCombat="true">The game launcher contains a short "Quickstart Guide" that explains the key game mechanics.
+
+Consider reading it if you are struggling with the difficulty.
+</Tip>
+
+<Tip>You can change the save game directory in the launcher.</Tip>
+
+<Tip>Xenonauts: Community Edition is a free unofficial update of the game created by community coders with source code access.
+
+Details of how to access it are included in the launcher.</Tip>
+
+<Tip>Your game includes a free novella that tells the story of the 1958 Iceland Incident and the formation of the Xenonauts.
+
+It can be found under the Extras tab of the launcher.</Tip>
+
+<Tip>Soldier Roles have no gameplay effect, but can easily sort troops / save equipment loadouts.</Tip>
+
+<Tip>If base defence turrets fail to repel an attacking UFO, they will still reduce the number of aliens in the landing party.</Tip>
+
+<Tip>Only half of the damage taken from an injury can be healed with a medipack.</Tip>
+
+<Tip>You can have up to three interceptors in a squadron, useful for tackling larger UFOs.</Tip>
+
+<Tip>Soldiers and aircraft can be sent into battle as long as they have more than 50% health.</Tip>
+
+<Tip>Airstriking a crash site gives almost as much money as completing it, but will not recover new technology and grants no soldier experience.</Tip>
+
+<Tip>Xenonaut casualties have a small chance of surviving a battle, reduced the further the soldier's hitpoints fall below zero.</Tip>
+
+<Tip>UFOs shot down over water will not create a crash site, but still provide a relations bonus.</Tip>
+
+<Tip>This game would not have been possible without the many generous people who pre-ordered it before it was completed.</Tip>
+
+<Tip>Research projects can be shared between different bases, but Workshop projects cannot.</Tip>
+
+<Tip>If an interceptor is shot down, it will be automatically recovered and rebuilt.
+
+This takes much longer than normal repair work so should be avoided where possible.</Tip>
+
+<Tip>Use free aim mode to target anything - activate it by holding Ctrl or clicking the UI weapon image.</Tip>
+
+<Tip>You can right-click a door from any adjacent tile to open it without walking through it.</Tip>
+
+<Tip>Right-click on a target to spend additional TU to improve shot accuracy. Some weapons have more aim levels than others.</Tip>
+
+<Tip>A suppressed target is unable to reaction fire and has reduced TUs in the following turn.</Tip>
+
+<Tip>Burst fire is inaccurate, but good for suppression or at short range.</Tip>
+
+<Tip>Closing to within 5 tiles of a target grants +15% bonus accuracy per tile, capping at 60%.</Tip>
+
+<Tip>A crouched unit is 20% harder to hit and has improved aim.</Tip>
+
+<Tip>You can shoot over cover (or crouched Xenonauts) in an adjacent tile without fear of hitting it.</Tip>
+
+<Tip>Both human and alien armour degrades as it absorbs damage, becoming less effective for the remainder of the mission.</Tip>
+
+<Tip>Damage has a large random element - a shot will inflict between 50% to 150% of its base damage.</Tip>
+
+<Tip>Accuracy and damage fall rapidly if a weapon is outside its effective range.</Tip>
+
+<Tip>Winning a medal grants a soldier +1 bravery.</Tip>
+
+<Tip>Your starting squad have better stats than rookies, so keep them alive where possible.</Tip>
+
+<Tip>Renaming soldiers after friends and family makes their deaths more tragic / hilarious.</Tip>
+
+<Tip>Building additional radar arrays expands the radar range of the base (up to three times).</Tip>
+
+<Tip>When using buttons to assign quantity, you can right-click to add in units of 10 or Ctrl + Click to add the maximum available.</Tip>
+
+<Tip>Smoke grenades are a good way to keep your soldiers alive.</Tip>
+
+<Tip>Shields always block frontal shots, but are less effective from the sides.</Tip>
+
+<Tip>You can set a flight path for an interceptor by holding shift to generate a series of movement waypoints.</Tip>
+
+<Tip>High morale offers protection against alien psionic powers.</Tip>
+
+<Tip>The highest-ranking Xenonaut on a mission is the mission commander, providing a global morale bonus whilst alive.</Tip>
+
+<Tip>An injury may also cause bleeding, draining HP each turn until cured with a medikit.</Tip>
+
+<Tip>A soldier will suffer reduced TUs if carrying more than his strength allows.</Tip>
+
+<Tip>Shooting with heavy weapons uses the lower of Strength or Accuracy.</Tip>
+
+<Tip>A soldier on low morale may panic, flee or go berserk at the start of each turn.</Tip>
+
+<Tip>By default a unit can use reserved TU to fire their weapon, making it easier to move the maximum possible distance and still fire their weapon afterwards.</Tip>
+
+<Tip>It is important to build additional bases and expand radar / interceptor coverage over the planet. One base will not be enough.</Tip>
+
+<Tip>Reaction fire is calculated from the Reactions stat and the % of remaining TU. 
+
+Units with a high remaining TU % are less likely to recieve reaction fire when performing an action.</Tip>
+
+<Tip>The estimated funding change for a region on mouseover is displayed at the top-right of the Geoscape screen.</Tip>
+
+<Tip>Soldiers standing right next to a corner lean when shooting past the corner, allowing them to shoot even at enemies that do not have an angle to shoot back.</Tip>
+
+<Tip>A soldier looking diagonally past a corner is able to peek around it and gain better view, possibly spotting even enemies that cannot see the soldier because of the corner.</Tip>
+
+<Tip>Soldiers can vault through most open or broken windows.
+
+Use the melee attack (hotkey M by default) to quickly break a window.</Tip>
+
+<Tip>Use the 'Toggle Roof and Walls' button in the panel to switch between 3 different display modes if you want to see the battlefield better.</Tip>
+
+<!-- <Tip>The game is bundled with an example developer mod (Soviet Weapons Pack) and a selection of community-made mods.</Tip> -->
+
+</GCLoadingTips>
+
