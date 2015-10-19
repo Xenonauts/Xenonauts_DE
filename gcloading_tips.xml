@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <GCLoadingTips>
 
 <Tip showOnFirstGroundCombat="true">The game launcher contains a short "Quickstart Guide" that explains the key game mechanics.
@@ -52,13 +52,13 @@ This takes much longer than normal repair work so should be avoided where possib
 
 <Tip>Closing to within 5 tiles of a target grants +15% bonus accuracy per tile, capping at 60%.</Tip>
 
-<Tip>A crouched unit is 20% harder to hit and has improved aim.</Tip>
+<Tip>Eine kniende Einheit ist 20% schwerer zu treffen und hat zudem eine verbesserte Schussgenauigkeit.</Tip>
 
 <Tip>You can shoot over cover (or crouched Xenonauts) in an adjacent tile without fear of hitting it.</Tip>
 
 <Tip>Both human and alien armour degrades as it absorbs damage, becoming less effective for the remainder of the mission.</Tip>
 
-<Tip>Damage has a large random element - a shot will inflict between 50% to 150% of its base damage.</Tip>
+<Tip>Bei Ermittlung des Schadens spielt die Zufallskomponente eine sehr große Rolle - so kann ein Schuss zwischen 50% und 150% seines Basisschadens verursachen.</Tip>
 
 <Tip>Accuracy and damage fall rapidly if a weapon is outside its effective range.</Tip>
 
