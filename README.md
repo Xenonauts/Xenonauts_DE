@@ -13,7 +13,7 @@ Diese Version der deutschen Übersetzung beinhaltet Übersetzungen der Texte fü
 folgenden XML Dateien verwaltet:
 - *xenopedia.xml* --  Das sind Texte, die man in der Xenopedia nachschlagen kann
 - *strings.xml* --  Das sind alle Texte, die man überall im Spiel vorfindet (z.B Menüs usw.)
-- *gcloading_tips.xml* -- Hier sind Schnellhilfetexte enthalten, die man im Ladebildschirm vor einer Bodenmission sieht.
+- *gcloading_tips.xml* -- Hier sind Texte der Schnelltipps enthalten, die man im Ladebildschirm vor einer Bodenmission sieht.
 
 Im Moment sind die Texte des Hauptspiels zu 95%, Xenopedia zu 60% und Lore+ zu 90% übersetzt worden. Die Texte für XNT sind derzeit nur kompatibel aber noch nicht übersetzt worden.
 
