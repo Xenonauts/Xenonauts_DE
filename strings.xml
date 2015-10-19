@@ -2426,6 +2426,7 @@
     <Cell><Data ss:Type="String">Leicht</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s70">
+
     <Cell><Data ss:Type="String">DiffSelect.easydiffdesc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s71"><Data ss:Type="String">Für blutige Anfänger&#10;&#10;The Alien Invasion escalates more slowly and the aliens are weaker than normal.</Data><NamedCell
@@ -2564,6 +2565,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">ENGAGE.AUTORESOLVE</Data><NamedCell
+
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">KI Berechnung (%1%%% victory)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -11236,7 +11238,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">German</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">German</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Deutsch</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">East German</Data><NamedCell
@@ -12908,11 +12910,11 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.america5</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Dominican Republic</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Dominik. Republik</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.america6</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Cambodia</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Kambodscha</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.america7</Data></Cell>
@@ -12920,7 +12922,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.argie1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Tierra del Fuego</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Feuerland</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.argie2</Data></Cell>
@@ -12940,7 +12942,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.brazil1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Dominican Republic</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Dominik. Republik</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.brazil2</Data></Cell>
@@ -12948,11 +12950,11 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.belgian1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Congo</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Kongo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.britain1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Northern Ireland</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Nordirland</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.britain2</Data></Cell>
@@ -12968,23 +12970,23 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.canada1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Cyprus</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Zypern</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.chile1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Tierra del Fuego</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Feuerland</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.china1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Paracel Islands</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Paracel-Inseln</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.china2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Sino-Soviet border</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Sino-Sowjet. Grenze</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.china3</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Sino-Vietnamese border</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Sino-Vietnam. Grenze</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.cuban1</Data></Cell>
@@ -12992,19 +12994,19 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.cuban2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Ethiopia</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Äthiopien</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.cuban3</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Syria</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Syrien</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.dutch1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Moluccan Terrorist Crises</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Moluk. Terror. Konflikt</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.dutch2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">New Guinea</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Neuguinea</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.EG1</Data></Cell>
@@ -13012,19 +13014,19 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.EG2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Congo</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Kongo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.EG3</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Ethiopia</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Äthiopien</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.EG4</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Mozambique</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Mosambik</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.egypt1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Cyprus</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Zypern</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.egypt2</Data></Cell>
@@ -13032,11 +13034,11 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.egypt3</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Libya</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Libyen</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.french1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Algeria</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Algerien</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.french2</Data></Cell>
@@ -13044,19 +13046,19 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.none</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">None</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Keine</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.greek1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Cyprus</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Zypern</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.indonesia1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">East Timor</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Osttimor</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.indonesia2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Western New Guinea</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Westneuguinea</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.indonesia3</Data></Cell>
@@ -13064,19 +13066,19 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.irish1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Congo</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Kongo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.irish2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Lebanon</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Libanon</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.israel1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Yom Kippur</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Jom Kippur</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.israel2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Southern Lebanon</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Südlibanon</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.israel3</Data></Cell>
@@ -13084,11 +13086,11 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.kenya1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Shifta War</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Shifta-Krieg</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.korea2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Korean DMZ</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Koreanische DMZ</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.malaysia1</Data></Cell>
@@ -13100,15 +13102,15 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.moro1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Western Sahara</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Westsahara</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.moro2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Zaipre</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Zaire</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.nam1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Cambodia</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Kambodscha</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.nam2</Data></Cell>
@@ -13116,7 +13118,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.nam3</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Sino-Vietnamese</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Sino-Vietnam.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.nam4</Data></Cell>
@@ -13140,15 +13142,15 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.phil1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Anti-guerrilla operations</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Anti-Guerilla-Operationen</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.poland1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Czechoslovakia</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Tschechoslowokei</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.portugal1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Portuguese Guinea</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Port. Guinea</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.portugal2</Data></Cell>
@@ -13156,11 +13158,11 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.portugal3</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Mozambique</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Mosambik</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.rhodesia1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Rhodesian Bush War</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Rhodesischer Buschkrieg</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.russian1</Data></Cell>
@@ -13168,11 +13170,11 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.russian2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Ethiopia</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Äthiopien</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.russian3</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Sino-Soviet border</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Sino-Sowjet. Grenze</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.russian4</Data></Cell>
@@ -13188,19 +13190,19 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.spain1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Equatorial Guinea</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Äquatorialguinea</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.spain2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Spanish Sahara</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Spanisch. Sahara</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.skorea1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">South Vietnam</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Südvietnam</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.swede1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Congo</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Kongo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.thai1</Data></Cell>
@@ -13208,19 +13210,19 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.thai2</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Cambodia</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Kambodscha</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.thai3</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Southern Thailand</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Südthailand</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.turk1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Cyprus</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Zypern</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.WG1</Data></Cell>
-    <Cell ss:StyleID="s119"><Data ss:Type="String">Mogadishu</Data></Cell>
+    <Cell ss:StyleID="s119"><Data ss:Type="String">Mogadischu</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">experience.iran1</Data></Cell>
