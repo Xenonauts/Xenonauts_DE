@@ -12,9 +12,6 @@
   <LastSaved>2014-07-06T13:17:28Z</LastSaved>
   <Version>11.5606</Version>
  </DocumentProperties>
- <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
-  <AllowPNG/>
- </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <WindowHeight>6315</WindowHeight>
   <WindowWidth>13425</WindowWidth>
@@ -37,10 +34,10 @@
  </Styles>
  <Worksheet ss:Name="strings">
   <Names>
-   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=strings!R1C1:R2108C10"
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=strings!R1C1:R2105C10"
     ss:Hidden="1"/>
   </Names>
-  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="2158" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="2579" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
    <Column ss:AutoFitWidth="0" ss:Width="246"/>
    <Column ss:AutoFitWidth="0" ss:Width="844.5"/>
@@ -1523,8 +1520,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Brazil</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Brasilien</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Brazil</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Briefing.AlienBase.Description</Data><NamedCell
@@ -1846,7 +1842,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Cape Town</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Kapstadt</Data><NamedCell
+    <Cell><Data ss:Type="String">Cape Town</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1949,7 +1945,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Colombia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Kolumbien</Data><NamedCell
+    <Cell><Data ss:Type="String">Colombia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -2047,7 +2043,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Cuba</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Kuba</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Cursor.Block</Data><NamedCell
@@ -2139,7 +2135,7 @@
     <Cell><Data ss:Type="String">Tage</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">DeadSoldier.AlienBaseSuccess</Data><NamedCell
+    <Cell><Data ss:Type="String">DeadSoldier.AlienBaseCaptured</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Capture of alien base near %1%</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2148,6 +2144,12 @@
     <Cell><Data ss:Type="String">DeadSoldier.AlienBaseFailure</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Assault on alien base near %1%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DeadSoldier.AlienBaseDestroyed</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Destruction of alien base near %1%</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -3607,6 +3609,12 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GC.MissionEnd.Result.AlienBaseDestroyed</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Alien Base Destroyed</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GC.MissionEnd.SentToResearchDivision</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Zur Forschungsabteilung geschickt</Data><NamedCell
@@ -3660,6 +3668,30 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GC.NotificationMessages.Die</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">%1% has fallen.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GC.NotificationMessages.Stun</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">%1% has fallen unconscious.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GC.NotificationMessages.CommandCenterIntruders</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Intruders have been detected in the Command Centre.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GC.NotificationMessages.XenonautsTurn</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Xenonauts Turn</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GCObjectives</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Missionsziele</Data><NamedCell
@@ -3681,6 +3713,30 @@
     <Cell><Data ss:Type="String">GC.PanicMessages.BleedingSeveralWounds</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">%1% blutet aus %2% wunden und verliert %3% HP!</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GC.PanicMessages.BleedingOneWoundHPLoss</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">%1% is bleeding from 1 wound&#10;and has taken %2% HP damage.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GC.PanicMessages.BleedingSeveralWoundsHPLoss</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">%1% is bleeding from %2% wounds&#10;and has taken %3% HP damage.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GC.PanicMessages.BleedingOneWoundHPChange</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">%1% is bleeding from 1 wound&#10;and has taken %2% HP damage,&#10;will take %3% HP damage next turn.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GC.PanicMessages.BleedingSeveralWoundsHPChange</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">%1% is bleeding from %2% wounds&#10;and has taken %3% HP damage,&#10;will take %4% HP damage next turn.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -3929,6 +3985,12 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GcGUI.Tooltips.SoldierInformationPanelTimeUnitsFirst</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">&lt;b&gt;Soldier Information Panel:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;This panel displays the soldier rank, name and status bars. The status bars show the following attributes:&#10;- Green - Time Units&#10;- Red - Health&#10;- Blue - Morale&#10;&#10;When a soldier takes damage, 50 percent of this damage cannot be healed. This part of the Health bar will be greyed out after damage is sustained.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GcGUI.Tooltips.SoldierInventory</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">&lt;b&gt;Soldier Inventory:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;This will open up the soldier inventory when clicked, allowing the player to rearrange the soldier’s equipment and pick items up or drop them to the ground.&#10;</Data><NamedCell
@@ -4109,6 +4171,18 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GCCenterOnNextAlien</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Center On Next Spotted Alien</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GCCenterOnPreviousAlien</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Center On Previous Spotted Alien</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GEMapScrollDown</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Nach unten scrollen</Data><NamedCell
@@ -4244,7 +4318,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Havana</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Havanna</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Havana</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">HeadingToWaypoint</Data><NamedCell
@@ -4270,7 +4344,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hungary</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Ungarn</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Hungary</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">hydrofoil</Data><NamedCell
@@ -4323,7 +4397,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">India</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Indien</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">India</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Infinite</Data><NamedCell
@@ -4881,6 +4955,18 @@
     <Cell><Data ss:Type="String">Items.HumanNonCombatantCorpse</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Menschliche Leiche</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.HumanCombatant</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Human Soldier</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.HumanCombatantCorpse</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Human Corpse</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -5860,7 +5946,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mexico City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Mexiko-Stadt</Data><NamedCell
+    <Cell><Data ss:Type="String">Mexico City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -5886,6 +5972,66 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Raketen Verteidigungsanlage</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.January</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Jan</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.February</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Feb</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.March</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Mar</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.April</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Apr</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.May</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">May</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.June</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Jun</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.July</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Jul</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.August</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Aug</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.September</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Sep</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.October</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Oct</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.November</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Nov</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MonthShort.December</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Dec</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Moscow</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6002,6 +6148,12 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NotEnoughMoneyForBase</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Insufficient funds.&lt;br/&gt;%1% required!</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Notify.Airplane.NoLongerGrounded</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">%1% has been sufficiently repaired to become operational.</Data><NamedCell
@@ -6014,15 +6166,27 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Notify.Airplane.RepairedReady</Data><NamedCell
+    <Cell><Data ss:Type="String">Notify.Airplane.Repaired</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">%1% has been repaired and is fully operational.</Data><NamedCell
+    <Cell><Data ss:Type="String">%1% has been fully repaired.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Notify.Airplane.RearmedRefuelled</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">%1% has been rearmed and refuelled.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Notify.Airplane.Rearmed</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">%1% has been rearmed.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Notify.Airplane.Refuelled</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">%1% has been refuelled.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -6273,7 +6437,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Papua New Guinea</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Papua-Neuguinea</Data><NamedCell
+    <Cell><Data ss:Type="String">Papua New Guinea</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -6349,6 +6513,24 @@
     <Cell><Data ss:Type="String">PersonnelView.BaseName</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Basis Name</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PersonnelView.ShowAll</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Show all</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PersonnelView.ShowAvailable</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Show available</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PersonnelView.ShowReady</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Show ready</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -6505,6 +6687,12 @@
     <Cell><Data ss:Type="String">PersonnelView.HireCost</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Hire cost:</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PersonnelView.Hiring_XX_Hours</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Hiring %1% hours</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -8082,6 +8270,16 @@
     <Cell><Data ss:Type="String">X</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEQ.INVPREVSOLDIER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">&lt;</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEQ.INVNEXTSOLDIER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">&gt;</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">SEQ.BALLISTICS</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Ballistisch</Data><NamedCell
@@ -8176,7 +8374,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">SEQ.PREVREG</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Ehem. Regiment</Data><NamedCell
+    <Cell><Data ss:Type="String">Prev. Regiment</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -8442,13 +8640,13 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Singapore</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Singapur</Data><NamedCell
+    <Cell><Data ss:Type="String">Singapore</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Singapore</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Singapur</Data><NamedCell
+    <Cell><Data ss:Type="String">Singapore</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -8745,6 +8943,52 @@
     <Cell><Data ss:Type="String">Wüste</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Terrain.forest</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Forest</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Terrain.mountains</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Mountains</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Terrain.swamp</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Swamp</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Terrain.tropical</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Tropical</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Terrain.terrain1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Terrain1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Terrain.terrain2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Terrain2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Terrain.terrain3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Terrain3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Terrain.terrain4</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Terrain4</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Terror</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Terror</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -8802,8 +9046,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Tripoli</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Tripolis</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Tripoli</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">tugboat</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8811,7 +9054,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Turkey</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Türkei</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Turkey</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">two</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8953,13 +9196,13 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">United Kingdom</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Vereinigtes Königreich</Data><NamedCell
+    <Cell><Data ss:Type="String">United Kingdom</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">United States</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Vereinigte Staaten</Data><NamedCell
+    <Cell><Data ss:Type="String">United States</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -9239,7 +9482,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Vladivostok</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Wladiwostok</Data><NamedCell
+    <Cell><Data ss:Type="String">Vladivostok</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -9466,7 +9709,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.grenade.shockbaton.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Shock Baton:&lt;/b&gt;&#10;&#10;The Shock Baton is a one-handed melee weapon designed to non-lethally incapacitate enemies. It can only be used from (cardinally) adjacent tiles, but will incapacitate most foes in 2-3 hits.&#10;&#10;Stun Damage:                                                      60 &#10;Attack Cost:                                                          20 TU</Data><NamedCell
+    <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Shock Baton:&lt;/b&gt;&#10;&#10;The Shock Baton is a one-handed melee weapon designed to non-lethally incapacitate enemies. It can only be used from (cardinally) adjacent tiles, but will incapacitate most foes in 2-3 hits.&#10;&#10;Stun Damage:                                                      60 &#10;Attack Cost:                                                          20%% TU</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10064,7 +10307,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Yakutsk</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Jakutsk</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Yakutsk</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Yes</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10073,7 +10316,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Rhodesia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Rhodesien</Data><NamedCell
+    <Cell><Data ss:Type="String">Rhodesia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10245,7 +10488,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Indonesia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Indonesien</Data><NamedCell
+    <Cell><Data ss:Type="String">Indonesia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10275,7 +10518,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Philippines</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Philippinen</Data><NamedCell
+    <Cell><Data ss:Type="String">Philippines</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10319,7 +10562,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Edinburgh</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Edinburg</Data><NamedCell
+    <Cell><Data ss:Type="String">Edinburgh</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10332,7 +10575,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ireland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Irland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Ireland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Cork</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10340,8 +10583,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Lisbon</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Lissabon</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Lisbon</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Portugal</Data><NamedCell
@@ -10371,8 +10613,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">France</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Frankreich</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">France</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Pekanbaru</Data><NamedCell
@@ -10382,11 +10623,11 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Italy</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Italien</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Italy</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Rome</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Rom</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Rome</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Houston</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10412,7 +10653,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Canada</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Kanada</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Canada</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ottawa</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10427,7 +10668,8 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Quebec City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Quebec</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Quebec City</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Panama</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10436,7 +10678,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Panama City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Panama-Stadt</Data><NamedCell
+    <Cell><Data ss:Type="String">Panama City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10492,7 +10734,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Guatemala City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Guatemala Stadt</Data><NamedCell
+    <Cell><Data ss:Type="String">Guatemala City</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10527,8 +10769,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Bolivia</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Bolivien</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Bolivia</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">La Paz</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10549,7 +10790,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">French Guiana</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Französisch-Guayana</Data><NamedCell
+    <Cell><Data ss:Type="String">French Guiana</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10582,27 +10823,25 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Norway</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Norwegen</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Norway</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Denmark</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Dänemark</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Denmark</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Copenhagen</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Kopenhagen</Data><NamedCell
+    <Cell><Data ss:Type="String">Copenhagen</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Kiev</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Kiew</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Kiev</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Prague</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Prag</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Prague</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ukraine</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10610,17 +10849,16 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Warsaw</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Warschau</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Warsaw</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Poland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Polen</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Poland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Czechslovakia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Tschechoslowakei</Data><NamedCell
+    <Cell><Data ss:Type="String">Czechslovakia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10631,12 +10869,11 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Iceland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Island</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Iceland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Finland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Finnland</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Finland</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Helsinki</Data><NamedCell
@@ -10652,17 +10889,15 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sweden</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Schweden</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Sweden</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Athens</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Athen</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Athens</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Greece</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Griechenland</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Greece</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Baku</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10671,12 +10906,12 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Azerbaijan</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Aserbaidschan</Data><NamedCell
+    <Cell><Data ss:Type="String">Azerbaijan</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Tehran</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Teheran</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Tehran</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Iran</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10697,13 +10932,13 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mongolia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Mongolei</Data><NamedCell
+    <Cell><Data ss:Type="String">Mongolia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Hong Kong</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Hongkong</Data><NamedCell
+    <Cell><Data ss:Type="String">Hong Kong</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10725,7 +10960,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">South Korea</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Südkorea</Data><NamedCell
+    <Cell><Data ss:Type="String">South Korea</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10743,7 +10978,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Madagascar</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Madagaskar</Data><NamedCell
+    <Cell><Data ss:Type="String">Madagascar</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10753,19 +10988,19 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mozambique</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Mosambik</Data><NamedCell
+    <Cell><Data ss:Type="String">Mozambique</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Dar es Salaam</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Daressalam</Data><NamedCell
+    <Cell><Data ss:Type="String">Dar es Salaam</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Tanzania</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Tansania</Data><NamedCell
+    <Cell><Data ss:Type="String">Tanzania</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10779,7 +11014,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Mogadishu</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Mogadischu</Data><NamedCell
+    <Cell><Data ss:Type="String">Mogadishu</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -10789,7 +11024,8 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Khartoum</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Khartum</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Khartoum</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Sudan</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10801,16 +11037,15 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Morocco</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Marokko</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Morocco</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Algiers</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Algier</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Algiers</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Algeria</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Algerien</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Algeria</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Churchill</Data><NamedCell
@@ -10820,8 +11055,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Germany</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Deutschland</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Germany</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Berlin</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10829,12 +11063,11 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Vienna</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Wien</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Vienna</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Austria</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Österreich</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Austria</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">experience.america1</Data><NamedCell
@@ -11378,7 +11611,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">German</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Deutsch</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">German</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">East German</Data><NamedCell
@@ -11794,239 +12027,169 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">AbortTitle</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Mission Abbrechen</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">AbortTitle</Data></Cell>
+    <Cell><Data ss:Type="String">Mission Abbrechen</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">personnel.nosoldierstransfer</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">You must select the soldiers you wish to transfer!</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">personnel.nosoldierstransfer</Data></Cell>
+    <Cell><Data ss:Type="String">You must select the soldiers you wish to transfer!</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">personnel.nosoldiersdismiss</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">You must select the soldiers you wish to dismiss!</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">personnel.nosoldiersdismiss</Data></Cell>
+    <Cell><Data ss:Type="String">You must select the soldiers you wish to dismiss!</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">BaseAttackLabel</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Basis wird angegriffen</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">BaseAttackLabel</Data></Cell>
+    <Cell><Data ss:Type="String">Basis wird angegriffen</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">TerrorLabel</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Alien Terrorangriff</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">TerrorLabel</Data></Cell>
+    <Cell><Data ss:Type="String">Alien Terrorangriff</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">TerrorEndLabel</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Alien Terrorangriff endet</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">TerrorEndLabel</Data></Cell>
+    <Cell><Data ss:Type="String">Alien Terrorangriff endet</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienCommunicationArray</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Alien Communications Array</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienCommunicationArray</Data></Cell>
+    <Cell><Data ss:Type="String">Alien Communications Array</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienCommunicationArrayDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">A captured alien communications device. This may unlock a method of decrypting alien transmissions.</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienCommunicationArrayDesc</Data></Cell>
+    <Cell><Data ss:Type="String">A captured alien communications device. This may unlock a method of decrypting alien transmissions.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ManTech.SingularityTorpedo</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Singularity Torpedo</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">ManTech.SingularityTorpedo</Data></Cell>
+    <Cell><Data ss:Type="String">Singularity Torpedo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">weapon.AlienAssaultPlasma</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Alien Assault Plasma</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">weapon.AlienAssaultPlasma</Data></Cell>
+    <Cell><Data ss:Type="String">Alien Assault Plasma</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.ParticleBeam</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Singularity Cannon</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.ParticleBeam</Data></Cell>
+    <Cell><Data ss:Type="String">Singularity Cannon</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.ParticleBeamDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Development of a powerful infantry weapon harnessing the enormous energy held within an alien singularity core.</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.ParticleBeamDesc</Data></Cell>
+    <Cell><Data ss:Type="String">Development of a powerful infantry weapon harnessing the enormous energy held within an alien singularity core.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienAssaultPlasma</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Alien Assault Plasma</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienAssaultPlasma</Data></Cell>
+    <Cell><Data ss:Type="String">Alien Assault Plasma</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienAssaultPlasmaDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">A short-ranged alien plasma weapon.</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienAssaultPlasmaDesc</Data></Cell>
+    <Cell><Data ss:Type="String">A short-ranged alien plasma weapon.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">weapon.combatshield</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Kampfschild</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">weapon.combatshield</Data></Cell>
+    <Cell><Data ss:Type="String">Kampfschild</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">weapon.assaultshield</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Angriffsschild</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">weapon.assaultshield</Data></Cell>
+    <Cell><Data ss:Type="String">Angriffsschild</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">weapon.combatshield.desc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Kampfschild:&lt;/b&gt;&#10;&#10;The Combat Shield is designed to protect our soldiers from alien plasma weapons. The shield will absorb damage up to its maximum hitpoints, at which point it will be destroyed. Attacks from the frontal 90 degrees of the soldier with the shield will be stopped automatically, but those from the sides and rear may bypass the shield entirely.&#10;&#10;Hit Points:                                                            80&#10;Front Block Chance:                                           100%%&#10;Side Block Chance:                                             60%%&#10;Rear Block Chance:                                             0%%</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">weapon.combatshield.desc</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Kampfschild:&lt;/b&gt;&#10;&#10;The Combat Shield is designed to protect our soldiers from alien plasma weapons. The shield will absorb damage up to its maximum hitpoints, at which point it will be destroyed. Attacks from the frontal 90 degrees of the soldier with the shield will be stopped automatically, but those from the sides and rear may bypass the shield entirely.&#10;&#10;Hit Points:                                                            80&#10;Front Block Chance:                                           100%%&#10;Side Block Chance:                                             60%%&#10;Rear Block Chance:                                             0%%</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">weapon.assaultshield.desc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Angriffsschild&lt;/b&gt;&#10;&#10;&#10;The Assault Shield is designed to protect our soldiers from alien plasma weapons. The shield will absorb damage up to its maximum hitpoints, at which point it will be destroyed. Attacks from the frontal 90 degrees of the soldier with the shield will be stopped automatically, but those from the sides and rear may bypass the shield entirely.&#10;&#10;Hit Points:                                                            80&#10;Front Block Chance:                                           100%%&#10;Side Block Chance:                                             60%%&#10;Rear Block Chance:                                             0%%</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">weapon.assaultshield.desc</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Angriffsschild&lt;/b&gt;&#10;&#10;&#10;The Assault Shield is designed to protect our soldiers from alien plasma weapons. The shield will absorb damage up to its maximum hitpoints, at which point it will be destroyed. Attacks from the frontal 90 degrees of the soldier with the shield will be stopped automatically, but those from the sides and rear may bypass the shield entirely.&#10;&#10;Hit Points:                                                            80&#10;Front Block Chance:                                           100%%&#10;Side Block Chance:                                             60%%&#10;Rear Block Chance:                                             0%%</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Items.AlienBaseCoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Items.AlienBaseCoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienFighterDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienFighterDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienHeavyFighterDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienHeavyFighterDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienInterceptorDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienInterceptorDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienBomberDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienBomberDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienBattleshipDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienBattleshipDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienCarrierDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienCarrierDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienStrikeCruiserDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienStrikeCruiserDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienCruiserDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienCruiserDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienLandingCraftDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienLandingCraftDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienCorvetteDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienCorvetteDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienScoutDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienScoutDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AlienLightScoutDatacoreDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AlienLightScoutDatacoreDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.AndronDisassemblyDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.AndronDisassemblyDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.CaesanAutopsyDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.CaesanAutopsyDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.HarridanAutopsyDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.HarridanAutopsyDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.PraetorAutopsyDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.PraetorAutopsyDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.ReaperAutopsyDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.ReaperAutopsyDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.SebillianAutopsyDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.SebillianAutopsyDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.WraithAutopsyDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.WraithAutopsyDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.LightDroneWreckageDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.LightDroneWreckageDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.MediumDroneWreckageDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.MediumDroneWreckageDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.HeavyDroneWreckageDesc</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.HeavyDroneWreckageDesc</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.LightDroneWreckage</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Light Drone Disassembly</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.LightDroneWreckage</Data></Cell>
+    <Cell><Data ss:Type="String">Light Drone Disassembly</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.MediumDroneWreckage</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Medium Drone Disassembly</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.MediumDroneWreckage</Data></Cell>
+    <Cell><Data ss:Type="String">Medium Drone Disassembly</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Researches.HeavyDroneWreckage</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Heavy Drone Disassembly</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Researches.HeavyDroneWreckage</Data></Cell>
+    <Cell><Data ss:Type="String">Heavy Drone Disassembly</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">RESISTED</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Panzerung getroffen</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">RESISTED</Data></Cell>
+    <Cell><Data ss:Type="String">Panzerung getroffen</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Turret.Hit</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Treffer</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Turret.Hit</Data></Cell>
+    <Cell><Data ss:Type="String">Treffer</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Turret.Miss</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Verfehlt</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Turret.Miss</Data></Cell>
+    <Cell><Data ss:Type="String">Verfehlt</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.MAGpistol.desc</Data></Cell>
@@ -12206,7 +12369,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">AlienBase.Small</Data></Cell>
-    <Cell><Data ss:Type="String">Alien Outpost</Data></Cell>
+    <Cell><Data ss:Type="String">Alien Base</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">AlienBase.Medium</Data></Cell>
@@ -12214,7 +12377,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">AlienBase.Large</Data></Cell>
-    <Cell><Data ss:Type="String">Alien Fortress</Data></Cell>
+    <Cell><Data ss:Type="String">Alien Base</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Notify.AlienBase.Imprecise</Data></Cell>
@@ -12225,8 +12388,1516 @@
     <Cell><Data ss:Type="String">Reports from field agents suggest aliens may have a base near %1%, %2%!</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">MISS</Data></Cell>
-    <Cell><Data ss:Type="String">Verfehlt</Data></Cell>
+    <Cell><Data ss:Type="String">CustomSoldier.NoExperience</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Aaron Ashbrooke</Data></Cell>
+    <Cell><Data ss:Type="String">Aaron Ashbrooke</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Adam Rauh</Data></Cell>
+    <Cell><Data ss:Type="String">Adam Rauh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Adam Wick</Data></Cell>
+    <Cell><Data ss:Type="String">Adam Wick</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Air Assault</Data></Cell>
+    <Cell><Data ss:Type="String">Air Assault</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Alec Pearson</Data></Cell>
+    <Cell><Data ss:Type="String">Alec Pearson</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Alexander Bishop</Data></Cell>
+    <Cell><Data ss:Type="String">Alexander Bishop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Alexander Ruin</Data></Cell>
+    <Cell><Data ss:Type="String">Alexander Ruin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Alexandre Woelfle</Data></Cell>
+    <Cell><Data ss:Type="String">Alexandre Woelfle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Alexey Kruglyakov</Data></Cell>
+    <Cell><Data ss:Type="String">Alexey Kruglyakov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Alex Thompson</Data></Cell>
+    <Cell><Data ss:Type="String">Alex Thompson</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Alex Valero</Data></Cell>
+    <Cell><Data ss:Type="String">Alex Valero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Alfa FSB</Data></Cell>
+    <Cell><Data ss:Type="String">Alfa FSB</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Allan Sanseau</Data></Cell>
+    <Cell><Data ss:Type="String">Allan Sanseau</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Alpha Group</Data></Cell>
+    <Cell><Data ss:Type="String">Alpha Group</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.American</Data></Cell>
+    <Cell><Data ss:Type="String">American</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Andrei Sokolov</Data></Cell>
+    <Cell><Data ss:Type="String">Andrei Sokolov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Andrew Nagel</Data></Cell>
+    <Cell><Data ss:Type="String">Andrew Nagel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Andrew Panter-Brick</Data></Cell>
+    <Cell><Data ss:Type="String">Andrew Panter-Brick</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Andrew Spruce</Data></Cell>
+    <Cell><Data ss:Type="String">Andrew Spruce</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Andrey Ivanov</Data></Cell>
+    <Cell><Data ss:Type="String">Andrey Ivanov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Andy Shum</Data></Cell>
+    <Cell><Data ss:Type="String">Andy Shum</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Angus McQuarrie</Data></Cell>
+    <Cell><Data ss:Type="String">Angus McQuarrie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Antti Blomberg</Data></Cell>
+    <Cell><Data ss:Type="String">Antti Blomberg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.ARD 10</Data></Cell>
+    <Cell><Data ss:Type="String">ARD 10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Army Rangers</Data></Cell>
+    <Cell><Data ss:Type="String">Army Rangers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Army Ranger Wing</Data></Cell>
+    <Cell><Data ss:Type="String">Army Ranger Wing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Australia</Data></Cell>
+    <Cell><Data ss:Type="String">Australia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Australian</Data></Cell>
+    <Cell><Data ss:Type="String">Australian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Benjamin Glatt</Data></Cell>
+    <Cell><Data ss:Type="String">Benjamin Glatt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Benjamin Wenker</Data></Cell>
+    <Cell><Data ss:Type="String">Benjamin Wenker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Benny McFrase</Data></Cell>
+    <Cell><Data ss:Type="String">Benny McFrase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ben Tan</Data></Cell>
+    <Cell><Data ss:Type="String">Ben Tan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Benzo Karino</Data></Cell>
+    <Cell><Data ss:Type="String">Benzo Karino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Black Watch of Canada</Data></Cell>
+    <Cell><Data ss:Type="String">Black Watch of Canada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Blake Kiefer</Data></Cell>
+    <Cell><Data ss:Type="String">Blake Kiefer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Brazilian</Data></Cell>
+    <Cell><Data ss:Type="String">Brazilian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Brett Cronin</Data></Cell>
+    <Cell><Data ss:Type="String">Brett Cronin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Brian Sharp</Data></Cell>
+    <Cell><Data ss:Type="String">Brian Sharp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.British</Data></Cell>
+    <Cell><Data ss:Type="String">British</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Caela Hlinstead</Data></Cell>
+    <Cell><Data ss:Type="String">Caela Hlinstead</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Canadian</Data></Cell>
+    <Cell><Data ss:Type="String">Canadian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Canadian Airborne Regiment</Data></Cell>
+    <Cell><Data ss:Type="String">Canadian Airborne Regiment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Canadian Airborne Reigment</Data></Cell>
+    <Cell><Data ss:Type="String">Canadian Airborne Reigment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Carl Uebelhart</Data></Cell>
+    <Cell><Data ss:Type="String">Carl Uebelhart</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.CIA SOG</Data></Cell>
+    <Cell><Data ss:Type="String">CIA SOG</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Coast Guard</Data></Cell>
+    <Cell><Data ss:Type="String">Coast Guard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Colin Tate</Data></Cell>
+    <Cell><Data ss:Type="String">Colin Tate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Cory Cross</Data></Cell>
+    <Cell><Data ss:Type="String">Cory Cross</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Craig Dolan</Data></Cell>
+    <Cell><Data ss:Type="String">Craig Dolan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.CSOR</Data></Cell>
+    <Cell><Data ss:Type="String">CSOR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Curtis Sheu</Data></Cell>
+    <Cell><Data ss:Type="String">Curtis Sheu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Czech</Data></Cell>
+    <Cell><Data ss:Type="String">Czech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Dag Sindre Bjugn</Data></Cell>
+    <Cell><Data ss:Type="String">Dag Sindre Bjugn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Daniel Compton</Data></Cell>
+    <Cell><Data ss:Type="String">Daniel Compton</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Daniel M Andersen</Data></Cell>
+    <Cell><Data ss:Type="String">Daniel M Andersen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Daniels Umanovskis</Data></Cell>
+    <Cell><Data ss:Type="String">Daniels Umanovskis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Danish</Data></Cell>
+    <Cell><Data ss:Type="String">Danish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Dan Masek</Data></Cell>
+    <Cell><Data ss:Type="String">Dan Masek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.DAR</Data></Cell>
+    <Cell><Data ss:Type="String">DAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Dave Lepley</Data></Cell>
+    <Cell><Data ss:Type="String">Dave Lepley</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David Conk</Data></Cell>
+    <Cell><Data ss:Type="String">David Conk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David Diamant</Data></Cell>
+    <Cell><Data ss:Type="String">David Diamant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David Finn</Data></Cell>
+    <Cell><Data ss:Type="String">David Finn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David Chien</Data></Cell>
+    <Cell><Data ss:Type="String">David Chien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David Kaufman</Data></Cell>
+    <Cell><Data ss:Type="String">David Kaufman</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David MacArthur</Data></Cell>
+    <Cell><Data ss:Type="String">David MacArthur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David Novak</Data></Cell>
+    <Cell><Data ss:Type="String">David Novak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David Solch</Data></Cell>
+    <Cell><Data ss:Type="String">David Solch</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David Stopple</Data></Cell>
+    <Cell><Data ss:Type="String">David Stopple</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.David Tran</Data></Cell>
+    <Cell><Data ss:Type="String">David Tran</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Delta Forces</Data></Cell>
+    <Cell><Data ss:Type="String">Delta Forces</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Denis Bogdanas</Data></Cell>
+    <Cell><Data ss:Type="String">Denis Bogdanas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Dennis Haug</Data></Cell>
+    <Cell><Data ss:Type="String">Dennis Haug</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Dereck Scott</Data></Cell>
+    <Cell><Data ss:Type="String">Dereck Scott</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.DEVGRU</Data></Cell>
+    <Cell><Data ss:Type="String">DEVGRU</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Doran Chamberlain</Data></Cell>
+    <Cell><Data ss:Type="String">Doran Chamberlain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Dutch</Data></Cell>
+    <Cell><Data ss:Type="String">Dutch</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.East German</Data></Cell>
+    <Cell><Data ss:Type="String">East German</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Edmund Ward</Data></Cell>
+    <Cell><Data ss:Type="String">Edmund Ward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Einar Gunnarsson</Data></Cell>
+    <Cell><Data ss:Type="String">Einar Gunnarsson</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Elling C. Hauge</Data></Cell>
+    <Cell><Data ss:Type="String">Elling C. Hauge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.English</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Eric Nielsen</Data></Cell>
+    <Cell><Data ss:Type="String">Eric Nielsen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Eric Wertzler</Data></Cell>
+    <Cell><Data ss:Type="String">Eric Wertzler</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Eric Wier</Data></Cell>
+    <Cell><Data ss:Type="String">Eric Wier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Erik Banner</Data></Cell>
+    <Cell><Data ss:Type="String">Erik Banner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Erik Marcille</Data></Cell>
+    <Cell><Data ss:Type="String">Erik Marcille</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Erik Wilson</Data></Cell>
+    <Cell><Data ss:Type="String">Erik Wilson</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.FAB</Data></Cell>
+    <Cell><Data ss:Type="String">FAB</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Fallskaermsjaegare</Data></Cell>
+    <Cell><Data ss:Type="String">Fallskaermsjaegare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.FDF</Data></Cell>
+    <Cell><Data ss:Type="String">FDF</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Felix Sargant</Data></Cell>
+    <Cell><Data ss:Type="String">Felix Sargant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Finland</Data></Cell>
+    <Cell><Data ss:Type="String">Finland</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Finnish</Data></Cell>
+    <Cell><Data ss:Type="String">Finnish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Finnish Defence Forces</Data></Cell>
+    <Cell><Data ss:Type="String">Finnish Defence Forces</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.FJS</Data></Cell>
+    <Cell><Data ss:Type="String">FJS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Francois Peens</Data></Cell>
+    <Cell><Data ss:Type="String">Francois Peens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Frank Raskow</Data></Cell>
+    <Cell><Data ss:Type="String">Frank Raskow</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.French-Brazilian</Data></Cell>
+    <Cell><Data ss:Type="String">French-Brazilian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.French Foreign Legion</Data></Cell>
+    <Cell><Data ss:Type="String">French Foreign Legion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.FSK</Data></Cell>
+    <Cell><Data ss:Type="String">FSK</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.FSK-HJK</Data></Cell>
+    <Cell><Data ss:Type="String">FSK-HJK</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Gebirgsdivision</Data></Cell>
+    <Cell><Data ss:Type="String">Gebirgsdivision</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.German</Data></Cell>
+    <Cell><Data ss:Type="String">German</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.GIGN</Data></Cell>
+    <Cell><Data ss:Type="String">GIGN</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.GOE</Data></Cell>
+    <Cell><Data ss:Type="String">GOE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Goose Fishkin</Data></Cell>
+    <Cell><Data ss:Type="String">Goose Fishkin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Green Berets</Data></Cell>
+    <Cell><Data ss:Type="String">Green Berets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Gregers Steffensen</Data></Cell>
+    <Cell><Data ss:Type="String">Gregers Steffensen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Gregg Re</Data></Cell>
+    <Cell><Data ss:Type="String">Gregg Re</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Griffin Fairchok</Data></Cell>
+    <Cell><Data ss:Type="String">Griffin Fairchok</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.GSG 9</Data></Cell>
+    <Cell><Data ss:Type="String">GSG 9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.GSG-9</Data></Cell>
+    <Cell><Data ss:Type="String">GSG-9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Gustavo de Oliveira</Data></Cell>
+    <Cell><Data ss:Type="String">Gustavo de Oliveira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Haerens Jagerkommando</Data></Cell>
+    <Cell><Data ss:Type="String">Haerens Jagerkommando</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Hamish Livingstone</Data></Cell>
+    <Cell><Data ss:Type="String">Hamish Livingstone</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Harry Yeo</Data></Cell>
+    <Cell><Data ss:Type="String">Harry Yeo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Henry Williams</Data></Cell>
+    <Cell><Data ss:Type="String">Henry Williams</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.HJS</Data></Cell>
+    <Cell><Data ss:Type="String">HJS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Huntsmen Corps</Data></Cell>
+    <Cell><Data ss:Type="String">Huntsmen Corps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.HV-02 214</Data></Cell>
+    <Cell><Data ss:Type="String">HV-02 214</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Chad Redtorik</Data></Cell>
+    <Cell><Data ss:Type="String">Chad Redtorik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Charles Buschmann</Data></Cell>
+    <Cell><Data ss:Type="String">Charles Buschmann</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Charlie Tunoku</Data></Cell>
+    <Cell><Data ss:Type="String">Charlie Tunoku</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Charlie Walters</Data></Cell>
+    <Cell><Data ss:Type="String">Charlie Walters</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Chinese</Data></Cell>
+    <Cell><Data ss:Type="String">Chinese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Chris England</Data></Cell>
+    <Cell><Data ss:Type="String">Chris England</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Chris L'Etoile</Data></Cell>
+    <Cell><Data ss:Type="String">Chris L'Etoile</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ian McDonald</Data></Cell>
+    <Cell><Data ss:Type="String">Ian McDonald</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Iceland Coast Guard</Data></Cell>
+    <Cell><Data ss:Type="String">Iceland Coast Guard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Icelandic</Data></Cell>
+    <Cell><Data ss:Type="String">Icelandic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Igor Burdin</Data></Cell>
+    <Cell><Data ss:Type="String">Igor Burdin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Indian</Data></Cell>
+    <Cell><Data ss:Type="String">Indian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Infantry</Data></Cell>
+    <Cell><Data ss:Type="String">Infantry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Irina Pinjaeva</Data></Cell>
+    <Cell><Data ss:Type="String">Irina Pinjaeva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Irish</Data></Cell>
+    <Cell><Data ss:Type="String">Irish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.ISA</Data></Cell>
+    <Cell><Data ss:Type="String">ISA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Italian</Data></Cell>
+    <Cell><Data ss:Type="String">Italian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jaakko Salomaa</Data></Cell>
+    <Cell><Data ss:Type="String">Jaakko Salomaa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jack England</Data></Cell>
+    <Cell><Data ss:Type="String">Jack England</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jacob Aune</Data></Cell>
+    <Cell><Data ss:Type="String">Jacob Aune</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jacob Bertelsen</Data></Cell>
+    <Cell><Data ss:Type="String">Jacob Bertelsen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jacob Rieck</Data></Cell>
+    <Cell><Data ss:Type="String">Jacob Rieck</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jaegerkorpset</Data></Cell>
+    <Cell><Data ss:Type="String">Jaegerkorpset</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.James Alaly</Data></Cell>
+    <Cell><Data ss:Type="String">James Alaly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.James Knight</Data></Cell>
+    <Cell><Data ss:Type="String">James Knight</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.James MacKinlay</Data></Cell>
+    <Cell><Data ss:Type="String">James MacKinlay</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.James Maleski</Data></Cell>
+    <Cell><Data ss:Type="String">James Maleski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.James McIntyre</Data></Cell>
+    <Cell><Data ss:Type="String">James McIntyre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.James Miller</Data></Cell>
+    <Cell><Data ss:Type="String">James Miller</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.James Siddle</Data></Cell>
+    <Cell><Data ss:Type="String">James Siddle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.James Young</Data></Cell>
+    <Cell><Data ss:Type="String">James Young</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jan Nortmeyer</Data></Cell>
+    <Cell><Data ss:Type="String">Jan Nortmeyer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jan Shoebel</Data></Cell>
+    <Cell><Data ss:Type="String">Jan Shoebel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Japanese</Data></Cell>
+    <Cell><Data ss:Type="String">Japanese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jarryd Whittemore</Data></Cell>
+    <Cell><Data ss:Type="String">Jarryd Whittemore</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jason Marcinko</Data></Cell>
+    <Cell><Data ss:Type="String">Jason Marcinko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jasper T. Fernandes</Data></Cell>
+    <Cell><Data ss:Type="String">Jasper T. Fernandes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jatinder Singh</Data></Cell>
+    <Cell><Data ss:Type="String">Jatinder Singh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jeffry Fletcher</Data></Cell>
+    <Cell><Data ss:Type="String">Jeffry Fletcher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jens Wiechers</Data></Cell>
+    <Cell><Data ss:Type="String">Jens Wiechers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jerry Fu</Data></Cell>
+    <Cell><Data ss:Type="String">Jerry Fu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jesse Serdante</Data></Cell>
+    <Cell><Data ss:Type="String">Jesse Serdante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.JGSDF 1st Airborne</Data></Cell>
+    <Cell><Data ss:Type="String">JGSDF 1st Airborne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jim McKeon</Data></Cell>
+    <Cell><Data ss:Type="String">Jim McKeon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jimmy Hsieh</Data></Cell>
+    <Cell><Data ss:Type="String">Jimmy Hsieh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Joe Chan</Data></Cell>
+    <Cell><Data ss:Type="String">Joe Chan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Johan Nielsen</Data></Cell>
+    <Cell><Data ss:Type="String">Johan Nielsen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.John Gabriel</Data></Cell>
+    <Cell><Data ss:Type="String">John Gabriel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.John Thothkins</Data></Cell>
+    <Cell><Data ss:Type="String">John Thothkins</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jonas Bergdahl</Data></Cell>
+    <Cell><Data ss:Type="String">Jonas Bergdahl</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jonathan Vessey</Data></Cell>
+    <Cell><Data ss:Type="String">Jonathan Vessey</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jonathon Scott</Data></Cell>
+    <Cell><Data ss:Type="String">Jonathon Scott</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jon Hambrick</Data></Cell>
+    <Cell><Data ss:Type="String">Jon Hambrick</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Joni Turpeinen</Data></Cell>
+    <Cell><Data ss:Type="String">Joni Turpeinen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jon Shale</Data></Cell>
+    <Cell><Data ss:Type="String">Jon Shale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Jorn Grote</Data></Cell>
+    <Cell><Data ss:Type="String">Jorn Grote</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Josh Eales</Data></Cell>
+    <Cell><Data ss:Type="String">Josh Eales</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Joshua Northey</Data></Cell>
+    <Cell><Data ss:Type="String">Joshua Northey</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Joshua Pense</Data></Cell>
+    <Cell><Data ss:Type="String">Joshua Pense</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.JTF2</Data></Cell>
+    <Cell><Data ss:Type="String">JTF2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Julian Tschannen</Data></Cell>
+    <Cell><Data ss:Type="String">Julian Tschannen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Justin Jay</Data></Cell>
+    <Cell><Data ss:Type="String">Justin Jay</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Karhu Team</Data></Cell>
+    <Cell><Data ss:Type="String">Karhu Team</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Katriina Anisimoff</Data></Cell>
+    <Cell><Data ss:Type="String">Katriina Anisimoff</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.KCT</Data></Cell>
+    <Cell><Data ss:Type="String">KCT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Keith Burnett</Data></Cell>
+    <Cell><Data ss:Type="String">Keith Burnett</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Kelvin Mui</Data></Cell>
+    <Cell><Data ss:Type="String">Kelvin Mui</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ken Chang</Data></Cell>
+    <Cell><Data ss:Type="String">Ken Chang</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ken Orwin Paul</Data></Cell>
+    <Cell><Data ss:Type="String">Ken Orwin Paul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Kevin Leach</Data></Cell>
+    <Cell><Data ss:Type="String">Kevin Leach</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Kevin Swindlehurst</Data></Cell>
+    <Cell><Data ss:Type="String">Kevin Swindlehurst</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Kris Thaler</Data></Cell>
+    <Cell><Data ss:Type="String">Kris Thaler</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Kseniya Kirova</Data></Cell>
+    <Cell><Data ss:Type="String">Kseniya Kirova</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.KSK</Data></Cell>
+    <Cell><Data ss:Type="String">KSK</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.LapJP</Data></Cell>
+    <Cell><Data ss:Type="String">LapJP</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Lari Kukkonen</Data></Cell>
+    <Cell><Data ss:Type="String">Lari Kukkonen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Lasse Sandstone</Data></Cell>
+    <Cell><Data ss:Type="String">Lasse Sandstone</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Latvian</Data></Cell>
+    <Cell><Data ss:Type="String">Latvian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Lazar Kaminski</Data></Cell>
+    <Cell><Data ss:Type="String">Lazar Kaminski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Lee Adams</Data></Cell>
+    <Cell><Data ss:Type="String">Lee Adams</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Leendert Kollmer</Data></Cell>
+    <Cell><Data ss:Type="String">Leendert Kollmer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Lee Stephen</Data></Cell>
+    <Cell><Data ss:Type="String">Lee Stephen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Leonitus Higley</Data></Cell>
+    <Cell><Data ss:Type="String">Leonitus Higley</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Lindsey Heaven</Data></Cell>
+    <Cell><Data ss:Type="String">Lindsey Heaven</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Lord Strathcona's Horse</Data></Cell>
+    <Cell><Data ss:Type="String">Lord Strathcona's Horse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Lukasz Serbenski</Data></Cell>
+    <Cell><Data ss:Type="String">Lukasz Serbenski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.LW Uem Abt 5</Data></Cell>
+    <Cell><Data ss:Type="String">LW Uem Abt 5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Maciej Lewandowski</Data></Cell>
+    <Cell><Data ss:Type="String">Maciej Lewandowski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Malabrega Regalia</Data></Cell>
+    <Cell><Data ss:Type="String">Malabrega Regalia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Malaysian</Data></Cell>
+    <Cell><Data ss:Type="String">Malaysian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Malek Annabi</Data></Cell>
+    <Cell><Data ss:Type="String">Malek Annabi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Marcel Kuipers</Data></Cell>
+    <Cell><Data ss:Type="String">Marcel Kuipers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Marcus Wishchik</Data></Cell>
+    <Cell><Data ss:Type="String">Marcus Wishchik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Marine Corps</Data></Cell>
+    <Cell><Data ss:Type="String">Marine Corps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Mark Doherty</Data></Cell>
+    <Cell><Data ss:Type="String">Mark Doherty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Mark Pulliam</Data></Cell>
+    <Cell><Data ss:Type="String">Mark Pulliam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Markus Kittila</Data></Cell>
+    <Cell><Data ss:Type="String">Markus Kittila</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Markuz Voronin</Data></Cell>
+    <Cell><Data ss:Type="String">Markuz Voronin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Mats Tonnehag</Data></Cell>
+    <Cell><Data ss:Type="String">Mats Tonnehag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Matt Geist</Data></Cell>
+    <Cell><Data ss:Type="String">Matt Geist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Matthew Byars</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew Byars</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Matthew Davis</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew Davis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Matt Leung</Data></Cell>
+    <Cell><Data ss:Type="String">Matt Leung</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Max Bell</Data></Cell>
+    <Cell><Data ss:Type="String">Max Bell</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Max Goldberg</Data></Cell>
+    <Cell><Data ss:Type="String">Max Goldberg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Maxim Terletskiy</Data></Cell>
+    <Cell><Data ss:Type="String">Maxim Terletskiy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Max Zettlmeissl</Data></Cell>
+    <Cell><Data ss:Type="String">Max Zettlmeissl</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Mervyn Peake</Data></Cell>
+    <Cell><Data ss:Type="String">Mervyn Peake</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Michael Pierzynski</Data></Cell>
+    <Cell><Data ss:Type="String">Michael Pierzynski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Michael R. James</Data></Cell>
+    <Cell><Data ss:Type="String">Michael R. James</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Mike Kullman</Data></Cell>
+    <Cell><Data ss:Type="String">Mike Kullman</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Mike Malette</Data></Cell>
+    <Cell><Data ss:Type="String">Mike Malette</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Mike Quach</Data></Cell>
+    <Cell><Data ss:Type="String">Mike Quach</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Mikkel Due</Data></Cell>
+    <Cell><Data ss:Type="String">Mikkel Due</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.MJK</Data></Cell>
+    <Cell><Data ss:Type="String">MJK</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Motzko Beuleneumel</Data></Cell>
+    <Cell><Data ss:Type="String">Motzko Beuleneumel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Mozto Beuleneumel</Data></Cell>
+    <Cell><Data ss:Type="String">Mozto Beuleneumel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.NASA</Data></Cell>
+    <Cell><Data ss:Type="String">NASA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Nathan Fursa</Data></Cell>
+    <Cell><Data ss:Type="String">Nathan Fursa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Nathaniel Drake</Data></Cell>
+    <Cell><Data ss:Type="String">Nathaniel Drake</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Nathaniel Ford</Data></Cell>
+    <Cell><Data ss:Type="String">Nathaniel Ford</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Navy SEAL</Data></Cell>
+    <Cell><Data ss:Type="String">Navy SEAL</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Navy SEALs</Data></Cell>
+    <Cell><Data ss:Type="String">Navy SEALs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Navy SEALS</Data></Cell>
+    <Cell><Data ss:Type="String">Navy SEALS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Neatkaribas Kustiba</Data></Cell>
+    <Cell><Data ss:Type="String">Neatkaribas Kustiba</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.New Zealander</Data></Cell>
+    <Cell><Data ss:Type="String">New Zealander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Nick Hodgman</Data></Cell>
+    <Cell><Data ss:Type="String">Nick Hodgman</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Nikko de Borja</Data></Cell>
+    <Cell><Data ss:Type="String">Nikko de Borja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Nikolai Laneski</Data></Cell>
+    <Cell><Data ss:Type="String">Nikolai Laneski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Nobuhiro Fukamachi</Data></Cell>
+    <Cell><Data ss:Type="String">Nobuhiro Fukamachi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Noel Hanson</Data></Cell>
+    <Cell><Data ss:Type="String">Noel Hanson</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.None</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Norwegian</Data></Cell>
+    <Cell><Data ss:Type="String">Norwegian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Norwyn Schultze</Data></Cell>
+    <Cell><Data ss:Type="String">Norwyn Schultze</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Odin Stepp</Data></Cell>
+    <Cell><Data ss:Type="String">Odin Stepp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Olivier Riedo</Data></Cell>
+    <Cell><Data ss:Type="String">Olivier Riedo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ontario Provincial Police</Data></Cell>
+    <Cell><Data ss:Type="String">Ontario Provincial Police</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Parachute Regiment</Data></Cell>
+    <Cell><Data ss:Type="String">Parachute Regiment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.PASKAL</Data></Cell>
+    <Cell><Data ss:Type="String">PASKAL</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Pavel Beluh</Data></Cell>
+    <Cell><Data ss:Type="String">Pavel Beluh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Pavel Galagan</Data></Cell>
+    <Cell><Data ss:Type="String">Pavel Galagan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Peter Cox</Data></Cell>
+    <Cell><Data ss:Type="String">Peter Cox</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Peter Holthaus</Data></Cell>
+    <Cell><Data ss:Type="String">Peter Holthaus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Phil Hartwich</Data></Cell>
+    <Cell><Data ss:Type="String">Phil Hartwich</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Philippino</Data></Cell>
+    <Cell><Data ss:Type="String">Philippino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Philippino Marine Corps</Data></Cell>
+    <Cell><Data ss:Type="String">Philippino Marine Corps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Phillip Andersen</Data></Cell>
+    <Cell><Data ss:Type="String">Phillip Andersen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Polish</Data></Cell>
+    <Cell><Data ss:Type="String">Polish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Psychological Operations Bat.</Data></Cell>
+    <Cell><Data ss:Type="String">Psychological Operations Bat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ray Barilaro</Data></Cell>
+    <Cell><Data ss:Type="String">Ray Barilaro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ray Soderlund</Data></Cell>
+    <Cell><Data ss:Type="String">Ray Soderlund</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Reid M. Glanzer</Data></Cell>
+    <Cell><Data ss:Type="String">Reid M. Glanzer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Rene Lueking</Data></Cell>
+    <Cell><Data ss:Type="String">Rene Lueking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Robert Rudd</Data></Cell>
+    <Cell><Data ss:Type="String">Robert Rudd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Rob Evans</Data></Cell>
+    <Cell><Data ss:Type="String">Rob Evans</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Rob Holland</Data></Cell>
+    <Cell><Data ss:Type="String">Rob Holland</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.ROCMC</Data></Cell>
+    <Cell><Data ss:Type="String">ROCMC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Romanian</Data></Cell>
+    <Cell><Data ss:Type="String">Romanian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Rory McBride</Data></Cell>
+    <Cell><Data ss:Type="String">Rory McBride</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Royal Canadian Regiment</Data></Cell>
+    <Cell><Data ss:Type="String">Royal Canadian Regiment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Royal Highland Fusiliers</Data></Cell>
+    <Cell><Data ss:Type="String">Royal Highland Fusiliers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Royal Marine Commando</Data></Cell>
+    <Cell><Data ss:Type="String">Royal Marine Commando</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Royal Marines</Data></Cell>
+    <Cell><Data ss:Type="String">Royal Marines</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Royal New Zealand Engineers</Data></Cell>
+    <Cell><Data ss:Type="String">Royal New Zealand Engineers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ruiz Bennett</Data></Cell>
+    <Cell><Data ss:Type="String">Ruiz Bennett</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Russian</Data></Cell>
+    <Cell><Data ss:Type="String">Russian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ryan Clark</Data></Cell>
+    <Cell><Data ss:Type="String">Ryan Clark</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ryan Lord</Data></Cell>
+    <Cell><Data ss:Type="String">Ryan Lord</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ryan Quinn</Data></Cell>
+    <Cell><Data ss:Type="String">Ryan Quinn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Ryan Rousseau</Data></Cell>
+    <Cell><Data ss:Type="String">Ryan Rousseau</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Sabra Marie</Data></Cell>
+    <Cell><Data ss:Type="String">Sabra Marie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Samuel Boham</Data></Cell>
+    <Cell><Data ss:Type="String">Samuel Boham</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.SAS</Data></Cell>
+    <Cell><Data ss:Type="String">SAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.SASR</Data></Cell>
+    <Cell><Data ss:Type="String">SASR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.SBS</Data></Cell>
+    <Cell><Data ss:Type="String">SBS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Scott Anderson</Data></Cell>
+    <Cell><Data ss:Type="String">Scott Anderson</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Scott Carlsson</Data></Cell>
+    <Cell><Data ss:Type="String">Scott Carlsson</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Scottish</Data></Cell>
+    <Cell><Data ss:Type="String">Scottish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.SEAL Team 2</Data></Cell>
+    <Cell><Data ss:Type="String">SEAL Team 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Seal Team 6</Data></Cell>
+    <Cell><Data ss:Type="String">Seal Team 6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Seth Klenowski</Data></Cell>
+    <Cell><Data ss:Type="String">Seth Klenowski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Simon Blackler</Data></Cell>
+    <Cell><Data ss:Type="String">Simon Blackler</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Simon Gutteridge</Data></Cell>
+    <Cell><Data ss:Type="String">Simon Gutteridge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Singaporean</Data></Cell>
+    <Cell><Data ss:Type="String">Singaporean</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Slovakian</Data></Cell>
+    <Cell><Data ss:Type="String">Slovakian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Soviet Fifth Army</Data></Cell>
+    <Cell><Data ss:Type="String">Soviet Fifth Army</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Spanish</Data></Cell>
+    <Cell><Data ss:Type="String">Spanish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Special Activities Division</Data></Cell>
+    <Cell><Data ss:Type="String">Special Activities Division</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Special Operations Force</Data></Cell>
+    <Cell><Data ss:Type="String">Special Operations Force</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Special Operations Group</Data></Cell>
+    <Cell><Data ss:Type="String">Special Operations Group</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Special Ops USAF</Data></Cell>
+    <Cell><Data ss:Type="String">Special Ops USAF</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Spetsnaz</Data></Cell>
+    <Cell><Data ss:Type="String">Spetsnaz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Spetsnaz GRU</Data></Cell>
+    <Cell><Data ss:Type="String">Spetsnaz GRU</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.SSG</Data></Cell>
+    <Cell><Data ss:Type="String">SSG</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Stevan Barnes</Data></Cell>
+    <Cell><Data ss:Type="String">Stevan Barnes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Steve Kelly</Data></Cell>
+    <Cell><Data ss:Type="String">Steve Kelly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Steven Descoteaux</Data></Cell>
+    <Cell><Data ss:Type="String">Steven Descoteaux</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Steven Mohrbacher</Data></Cell>
+    <Cell><Data ss:Type="String">Steven Mohrbacher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Svea Livgarde</Data></Cell>
+    <Cell><Data ss:Type="String">Svea Livgarde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Swedish</Data></Cell>
+    <Cell><Data ss:Type="String">Swedish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Swiss</Data></Cell>
+    <Cell><Data ss:Type="String">Swiss</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Sylvie Gautier</Data></Cell>
+    <Cell><Data ss:Type="String">Sylvie Gautier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Taka Akita</Data></Cell>
+    <Cell><Data ss:Type="String">Taka Akita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Talyn Majenkov</Data></Cell>
+    <Cell><Data ss:Type="String">Talyn Majenkov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Tass Chapman</Data></Cell>
+    <Cell><Data ss:Type="String">Tass Chapman</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.The Activity</Data></Cell>
+    <Cell><Data ss:Type="String">The Activity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.The Princess Pat's</Data></Cell>
+    <Cell><Data ss:Type="String">The Princess Pat's</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Thomas Helms</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas Helms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Thomas Kramer</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas Kramer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Thomas Melberg</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas Melberg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Tiger Force, 101st Airborne</Data></Cell>
+    <Cell><Data ss:Type="String">Tiger Force, 101st Airborne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.TIGRIS</Data></Cell>
+    <Cell><Data ss:Type="String">TIGRIS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Tom Bitmead</Data></Cell>
+    <Cell><Data ss:Type="String">Tom Bitmead</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Tom Minnick</Data></Cell>
+    <Cell><Data ss:Type="String">Tom Minnick</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Tommy Melchiore</Data></Cell>
+    <Cell><Data ss:Type="String">Tommy Melchiore</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Toni Harkonen</Data></Cell>
+    <Cell><Data ss:Type="String">Toni Harkonen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Tor-Eilif Hargaut</Data></Cell>
+    <Cell><Data ss:Type="String">Tor-Eilif Hargaut</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Tristan Brianson</Data></Cell>
+    <Cell><Data ss:Type="String">Tristan Brianson</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Truls Borg</Data></Cell>
+    <Cell><Data ss:Type="String">Truls Borg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.USAF</Data></Cell>
+    <Cell><Data ss:Type="String">USAF</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Utti Jaeger</Data></Cell>
+    <Cell><Data ss:Type="String">Utti Jaeger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Uzma Shera</Data></Cell>
+    <Cell><Data ss:Type="String">Uzma Shera</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Vadim Sumin</Data></Cell>
+    <Cell><Data ss:Type="String">Vadim Sumin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Viktor Petrov</Data></Cell>
+    <Cell><Data ss:Type="String">Viktor Petrov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Vincent Ecuyer</Data></Cell>
+    <Cell><Data ss:Type="String">Vincent Ecuyer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Volunteer</Data></Cell>
+    <Cell><Data ss:Type="String">Volunteer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Vympel</Data></Cell>
+    <Cell><Data ss:Type="String">Vympel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.West German</Data></Cell>
+    <Cell><Data ss:Type="String">West German</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.William Fitzgerald</Data></Cell>
+    <Cell><Data ss:Type="String">William Fitzgerald</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Yrjo Peussa</Data></Cell>
+    <Cell><Data ss:Type="String">Yrjo Peussa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Zed Sorin</Data></Cell>
+    <Cell><Data ss:Type="String">Zed Sorin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.Zhanna Zhivanevskya</Data></Cell>
+    <Cell><Data ss:Type="String">Zhanna Zhivanevskya</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.1 Commando Group</Data></Cell>
+    <Cell><Data ss:Type="String">1 Commando Group</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.1 PPCLI</Data></Cell>
+    <Cell><Data ss:Type="String">1 PPCLI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.1 PSK</Data></Cell>
+    <Cell><Data ss:Type="String">1 PSK</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.1st Bat. Scots Guards</Data></Cell>
+    <Cell><Data ss:Type="String">1st Bat. Scots Guards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.10th Special Forces Group</Data></Cell>
+    <Cell><Data ss:Type="String">10th Special Forces Group</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.101st Airborne</Data></Cell>
+    <Cell><Data ss:Type="String">101st Airborne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.156th Infantry Regiment</Data></Cell>
+    <Cell><Data ss:Type="String">156th Infantry Regiment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.160th SOAR</Data></Cell>
+    <Cell><Data ss:Type="String">160th SOAR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.2nd Cavalry Regiment</Data></Cell>
+    <Cell><Data ss:Type="String">2nd Cavalry Regiment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.2 Para</Data></Cell>
+    <Cell><Data ss:Type="String">2 Para</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.22nd Airborne CSLA</Data></Cell>
+    <Cell><Data ss:Type="String">22nd Airborne CSLA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.24th Special Tactics</Data></Cell>
+    <Cell><Data ss:Type="String">24th Special Tactics</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.3 Commando Brigade</Data></Cell>
+    <Cell><Data ss:Type="String">3 Commando Brigade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.42nd Infantry</Data></Cell>
+    <Cell><Data ss:Type="String">42nd Infantry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.5th Jager</Data></Cell>
+    <Cell><Data ss:Type="String">5th Jager</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.5-1 CAV</Data></Cell>
+    <Cell><Data ss:Type="String">5-1 CAV</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.542 Parachute Infantry</Data></Cell>
+    <Cell><Data ss:Type="String">542 Parachute Infantry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.601 SFG</Data></Cell>
+    <Cell><Data ss:Type="String">601 SFG</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.79th Rifle Corps</Data></Cell>
+    <Cell><Data ss:Type="String">79th Rifle Corps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.82nd Airborne</Data></Cell>
+    <Cell><Data ss:Type="String">82nd Airborne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.8/7 RVR</Data></Cell>
+    <Cell><Data ss:Type="String">8/7 RVR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.9. Kompanie</Data></Cell>
+    <Cell><Data ss:Type="String">9. Kompanie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.9 Para Commandos</Data></Cell>
+    <Cell><Data ss:Type="String">9 Para Commandos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CustomSoldier.9th Parachute Regiment</Data></Cell>
+    <Cell><Data ss:Type="String">9th Parachute Regiment</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -12243,19 +13914,10 @@
     <VerticalResolution>300</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>623</TopRowVisible>
-   <LeftColumnVisible>1</LeftColumnVisible>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <ActiveRow>632</ActiveRow>
-     <ActiveCol>1</ActiveCol>
-    </Pane>
-   </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
-  <AutoFilter x:Range="R1C1:R2108C10"
+  <AutoFilter x:Range="R1C1:R2105C10"
    xmlns="urn:schemas-microsoft-com:office:excel">
   </AutoFilter>
  </Worksheet>
