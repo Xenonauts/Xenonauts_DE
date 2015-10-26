@@ -1,4 +1,4 @@
-# Xenonauts_DE
+# Xenonauts (DE)
 Deutsche Übersetzung für Xenonauts (v1.59/v1.60)
 
 ##Version:
