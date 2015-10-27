@@ -2535,7 +2535,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Egypt</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Egypt</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Ägypten</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">Sverdlovsk</Data><NamedCell
@@ -8827,7 +8827,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
     <Cell><Data ss:Type="String">United Arab Emirates</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">United Arab Emirates</Data><NamedCell
+    <Cell><Data ss:Type="String">Vereinigte Arab. Emiraten</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s70">
