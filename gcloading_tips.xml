@@ -48,7 +48,7 @@ Dieser Prozess nimmt deutlich mehr Zeit in Anspruch, als eine normale Reparatur 
 
 <Tip>A suppressed target is unable to reaction fire and has reduced TUs in the following turn.</Tip>
 
-<Tip>Burst fire is inaccurate, but good for suppression or at short range.</Tip>
+<Tip>Feuersalven sind auf Distanz ungenau, erzeugen jedoch eine hohe Unterdrückung sowie hohen Schaden auf kurze Entfernung</Tip>
 
 <Tip>Closing to within 5 tiles of a target grants +15% bonus accuracy per tile, capping at 60%.</Tip>
 
@@ -56,13 +56,13 @@ Dieser Prozess nimmt deutlich mehr Zeit in Anspruch, als eine normale Reparatur 
 
 <Tip>You can shoot over cover (or crouched Xenonauts) in an adjacent tile without fear of hitting it.</Tip>
 
-<Tip>Both human and alien armour degrades as it absorbs damage, becoming less effective for the remainder of the mission.</Tip>
+<Tip>Die Kampfpanzerung der Menschen als auch der Außerirdischen büßt mit jedem Treffer an Effektivität bis zum Ende der Mission ein.</Tip>
 
 <Tip>Bei Ermittlung des Schadens spielt die Zufallskomponente eine sehr große Rolle - so kann ein Schuss zwischen 50% und 150% seines Basisschadens verursachen.</Tip>
 
-<Tip>Accuracy and damage fall rapidly if a weapon is outside its effective range.</Tip>
+<Tip>Genauigkeit und Schaden einer Waffe nehmen stark ab, sobald das Ziel außerhalb ihrer effektiven Reichweite liegt</Tip>
 
-<Tip>Winning a medal grants a soldier +1 bravery.</Tip>
+<Tip>Der Erhalt einer Medaille verleiht einem Soldaten +1 Tapferkeit.</Tip>
 
 <Tip>Your starting squad have better stats than rookies, so keep them alive where possible.</Tip>
 
@@ -78,7 +78,7 @@ Dieser Prozess nimmt deutlich mehr Zeit in Anspruch, als eine normale Reparatur 
 
 <Tip>You can set a flight path for an interceptor by holding shift to generate a series of movement waypoints.</Tip>
 
-<Tip>High morale offers protection against alien psionic powers.</Tip>
+<Tip>Hohe Moral ehöht Resistenz gegen psionische Kräfte der Außerirdischen.</Tip>
 
 <Tip>The highest-ranking Xenonaut on a mission is the mission commander, providing a global morale bonus whilst alive.</Tip>
 
@@ -88,7 +88,7 @@ Dieser Prozess nimmt deutlich mehr Zeit in Anspruch, als eine normale Reparatur 
 
 <Tip>Shooting with heavy weapons uses the lower of Strength or Accuracy.</Tip>
 
-<Tip>A soldier on low morale may panic, flee or go berserk at the start of each turn.</Tip>
+<Tip>Ein Soldat mit gesunkener/geringer Moral kann zu Beginn einer Runde in Panik verfallen, fliehen oder Amok laufen.</Tip>
 
 <Tip>By default a unit can use reserved TU to fire their weapon, making it easier to move the maximum possible distance and still fire their weapon afterwards.</Tip>
 
