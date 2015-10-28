@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0"?>
-<GCLoadingTips>
+<GCLoadingTips MODMERGE="replace">
 
 <Tip showOnFirstGroundCombat="true">The game launcher contains a short "Quickstart Guide" that explains the key game mechanics.
 
