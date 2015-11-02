@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0"?>
 <GCLoadingTips MODMERGE="replace">
 
-<Tip showOnFirstGroundCombat="true">The game launcher contains a short "Quickstart Guide" that explains the key game mechanics.
+<Tip showOnFirstGroundCombat="true">Der Spielstarter beinhaltet eine kurze Schnellstartanleitung, die grundlegende Spielmechaniken erklärt.
 
-Consider reading it if you are struggling with the difficulty.
+Du solltest sie lesen, falls du beim Spielen auf Schwierigkeiten stoßen solltest.
 </Tip>
 
-<Tip>You can change the save game directory in the launcher.</Tip>
+<Tip>Du kannst Im Spielstarter das Verzeichnis für gespeicherte Spielstände ändern.</Tip>
 
-<Tip>Xenonauts: Community Edition is a free unofficial update of the game created by community coders with source code access.
+<Tip>Xenonauts: Community Edition ist ein konstenloses inoffizielles Update des Spiels, das von Community-Programmierern, mit Zugriff auf Quellcode, geschaffen wurde.
 
-Details of how to access it are included in the launcher.</Tip>
+Einzelheiten darüber, wie du an das Update gelangst, findest du im Spielstarter.</Tip>
 
 <Tip>Im Lieferumfang Ihres Spiels ist eine kostenlose Erzählung enthalten, die über den Zwischenfall auf Island im Jahr 1958 and die anschließende Gründung der Xenonauten berichtet.
 
 Sie kann im Spielstarter unter dem Reiter 'Extras' gefunden werden.</Tip>
 
-<Tip>Soldier Roles have no gameplay effect, but can easily sort troops / save equipment loadouts.</Tip>
+<Tip>Soldatenrollen haben zwar keinen Einfluss auf das Spiel, jedoch können damit Einheiten sortiert oder Bewaffnung gespeichert werden.</Tip>
 
 <Tip>If base defence turrets fail to repel an attacking UFO, they will still reduce the number of aliens in the landing party.</Tip>
 
-<Tip>Only half of the damage taken from an injury can be healed with a medipack.</Tip>
+<Tip>Nur die Hälfte des bei einer Verletzung erlittenen Schadens kann mit einem 'Medipack' geheilt werden.</Tip>
 
-<Tip>You can have up to three interceptors in a squadron, useful for tackling larger UFOs.</Tip>
+<Tip>Du kannst bis zu drei Abfangjäger zu einer Staffel gruppieren, um größere UFOs anzugreifen.</Tip>
 
-<Tip>Soldiers and aircraft can be sent into battle as long as they have more than 50% health.</Tip>
+<Tip>Soldaten und Flieger können in den Kampf geschickt werden, solange sie über 50% Lebenspunkte haben.</Tip>
 
-<Tip>Airstriking a crash site gives almost as much money as completing it, but will not recover new technology and grants no soldier experience.</Tip>
+<Tip>Ein Luftschlag auf eine Absturzstelle bringt fast genau soviel Geld ein wie eine Bodenoperation, du kannst aber keine neuen Technologien bergen und deine Soldaten keine Erfahrung sammeln.</Tip>
 
 <Tip>Xenonaut casualties have a small chance of surviving a battle, reduced the further the soldier's hitpoints fall below zero.</Tip>
 
-<Tip>UFOs shot down over water will not create a crash site, but still provide a relations bonus.</Tip>
+<Tip>Über dem Wasser abgeschossene UFOs generieren keine Absturzstellen, tragen aber dennoch zur Verbesserung der Beziehungen bei.</Tip>
 
-<Tip>This game would not have been possible without the many generous people who pre-ordered it before it was completed.</Tip>
+<Tip>Dieses Spiel wäre ohne die vielen großzügigen Menschen nicht denkbar, die das Spiel vorbestellt haben bevor es fertig gestellt wurde.</Tip>
 
-<Tip>Research projects can be shared between different bases, but Workshop projects cannot.</Tip>
+<Tip>Ein Forschungsprojekt kann von unterschiedlichen Stützpunkten bearbeitet werden, ein Werkstattprojekt dagegen nicht</Tip>
 
 <Tip>Falls ein Abfangjäger abgeschossen wird, wird er automatisch geborgen und wiederhergestellt.
 
