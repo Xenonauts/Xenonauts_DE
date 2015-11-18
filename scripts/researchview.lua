@@ -35,8 +35,8 @@ local tableWidth            = hww * 0.86;
 local tableTop              = cpbheight * 0.35;
 local tableHeight           = cpbheight * 0.65;
 local tableHeaderHeight     = tableHeight * 0.25;
-local tableHeaderFontHeight = screenResolutionH * 0.0165;
-local navigationText = screenResolutionH * 0.0174;
+local tableHeaderFontHeight = screenResolutionH * 0.014;
+local navigationText = screenResolutionH * 0.018;
 
 local c1x = tableWidth * 0.05;
 local c1w = tableWidth * 0.25;
@@ -116,7 +116,7 @@ MakeDialog
         {
           font = XenonautsTableHeaderFont,
           name = "static",
-          x = c1x + 20,
+          x = c1x,
           y = 0,
           w = c1w,
           h = kMax,
@@ -170,7 +170,7 @@ MakeDialog
         h = tableHeight - tableHeaderHeight - (screenResolutionH * 0.015),
         font = XenonautsTableContentsFont,
         fontScale = tableHeaderFontHeight,
-        hideScrollbar = true,
+        hswl = true,
         drawSelection = false,
         
         column1x = c1x,
@@ -190,6 +190,7 @@ MakeDialog
           w = kMax,
           h = kMax,
           image = "uitextures/scrollbar",
+          tint = Color(192,192,192,255),
           bordersize = 4,
 
           NonUniformScaledImage
@@ -199,7 +200,7 @@ MakeDialog
 	          y = 2,
 	          w = 5,
 	          h = 5,
-		        image = "uitextures/scrollbarspeech",
+		        image = "uitextures/white",
 	        },
         },
       }
@@ -274,7 +275,7 @@ MakeDialog
           name = "availabletechlist",
           x = sbw * 0.86 * 0.02,
           y = sbh1 * 0.03,
-          w = sbw * 0.86 * 0.34 + 20,
+          w = sbw * 0.86 * 0.34,
           h = sbh1 * 0.55 * 0.9,
           fontScale = tableHeaderFontHeight,
           hcolor = Color(18,18,18,255),
@@ -290,6 +291,7 @@ MakeDialog
             w = kMax,
             h = kMax,
             image = "ui_screens/ui_research/scrollbarspeech",
+            tint = Color(192,192,192,255),
             bordersize = 1,
 
             NonUniformScaledImage
@@ -481,7 +483,7 @@ MakeDialog
           h = sbh2 * 0.4  * 0.2,
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignRight + kVAlignCenter,
-          label = "REsearchView.PerMonth",
+          label = "ResearchView.PerMonth",
         },
 
         ProgressBar

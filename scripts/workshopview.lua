@@ -41,13 +41,13 @@ local navigationText        = screenResolutionH * 0.018;
 local uniw = 0.96 / 7;
 
 local c1x = tableWidth * 0.04;
-local c1w = tableWidth * 0.94 / 7;
+local c1w = tableWidth * 0.99 / 5.2;
 local c2x = c1x + c1w;
-local c2w = tableWidth * 0.94 / 6;
+local c2w = tableWidth * 0.85 / 6.5;
 local c3x = c2x + c2w;
-local c3w = tableWidth * 0.94 / 9;
+local c3w = tableWidth * 0.85 / 9;
 local c4x = c3x + c3w;
-local c4w = tableWidth * 0.94 / 5;
+local c4w = tableWidth * 0.94 / 5.5;
 local c5x = c4x + c4w;
 local c5w = tableWidth * uniw;
 local c6x = c5x + c5w;
@@ -213,7 +213,7 @@ MakeDialog
         h = tableHeight - tableHeaderHeight,
         font = XenonautsTableContentsFont,
         fontScale = tableHeaderFontHeight,
-        hideScrollbar = true,
+        hswl = true,
         drawSelection = false,
         
         column1x = c1x - (tableWidth * 0.027),
@@ -239,6 +239,7 @@ MakeDialog
           w = kMax,
           h = kMax,
           image = "uitextures/scrollbar",
+          tint = Color(192,192,192,255),
           bordersize = 4,
 
           NonUniformScaledImage
@@ -360,34 +361,34 @@ MakeDialog
           font = MenuElementSubHeadingBlack,
           name = "activegroups",
           x = sbw * 0.86 * 0.015,
-          y = sbh1 * 0.5 * 0.05,
-          w = sbw * 0.86 * 0.22,
-          h = sbh1 * 0.5 * 0.9,
+          y = sbh1 * 0.03,
+          w = (sbw * 0.86 * 0.25) - (sbw * 0.012),
+          h = sbh1 * 0.55 * 0.9,
           fontScale = tableHeaderFontHeight,
           hcolor = Color(18,18,18,255),
           mcolor = WhiteColor;
   		    thcolor = WhiteColor,
-          hswl = true,
   		    textsize = tableHeaderFontHeight + listLineSpacing,
 
           TiledImage
         {
           name = "scrollbar",
-          x = kMax - 9,
+          x = kMax - 7,
           y = 0,
           w = kMax,
           h = kMax,
-          image = "uitextures/scrollbar",
-          bordersize = 4,
+          image = "ui_screens/ui_research/scrollbarspeech",
+          tint = Color(192,192,192,255),
+          bordersize = 1,
 
           NonUniformScaledImage
 	        {
 		        name  = "scrollbarBtn",
-	          x = 2,
-	          y = 2,
+	          x = 1,
+	          y = 1,
 	          w = 5,
-	          h = 5,
-		        image = "uitextures/scrollbarspeech",
+	          h = 0,
+		        image = "ui_screens/ui_research/scrollbar_button",
 	        },
           },
         },
@@ -423,6 +424,7 @@ MakeDialog
             w = kMax,
             h = kMax,
             image = "ui_screens/ui_research/scrollbarspeech",
+            tint = Color(192,192,192,255),
             bordersize = 1,
 
             NonUniformScaledImage
@@ -801,3 +803,4 @@ MakeDialog
     },
   }
 }
+

@@ -14,6 +14,34 @@ CategoryButtonStyle = {
 	graphics = CategoryButtonGraphics,
 };
 
+ArrowMoveUpButtonGraphics = {
+	"ui_screens/ui_soldierequip/arrow_moveup_up",
+	"ui_screens/ui_soldierequip/arrow_moveup_down",
+	"ui_screens/ui_soldierequip/arrow_moveup_over",
+};
+
+ArrowMoveUpButtonStyle = {
+	parent   = DefaultStyle,
+	font     = XenonautsButtonFontMedium,
+	sound    = kDefaultButtonSound,
+	type     = kPush,
+	graphics = ArrowMoveUpButtonGraphics,
+};
+
+ArrowMoveDownButtonGraphics = {
+	"ui_screens/ui_soldierequip/arrow_movedown_up",
+	"ui_screens/ui_soldierequip/arrow_movedown_down",
+	"ui_screens/ui_soldierequip/arrow_movedown_over",
+};
+
+ArrowMoveDownButtonStyle = {
+	parent   = DefaultStyle,
+	font     = XenonautsButtonFontMedium,
+	sound    = kDefaultButtonSound,
+	type     = kPush,
+	graphics = ArrowMoveDownButtonGraphics,
+};
+
 SEQSelectorFont = {
   GeoscapeFont,
   1,
@@ -34,7 +62,7 @@ SoldierNameFont = {
 
 SoldierNameEditFont = {
   GeoscapeFont,
-  screenResolutionH * 0.019,
+  screenResolutionH * 0.021,
   BlackColor
 };
 
@@ -85,12 +113,13 @@ local scl = ( hwh / 940 );
 local stw = scl * 388;
 local sth = scl * 542;
 
-local wsw = scl * 337;
-local wsh = scl * 702;
+local wsw = scl * 360;
+local wsh = scl * 882 - 20;
 
-local asw = scl * 537;
-local ash = scl * 210;
-local asc = scl * 220;
+local asw = scl * 700;
+local ash = scl * 280;
+local asc = scl * 240;
+local asi = ash / 5;
 
 local c1x = asw * 0.01;
 local c1w = ( asw - asc ) * 0.1;
@@ -117,6 +146,7 @@ MakeDialog
     y = 30,
     w = kMax,
     h = kMax,
+    aircraftslotitemheight = asi;
     
     Bitmap
     {
@@ -293,7 +323,7 @@ MakeDialog
       font = MedSmallSoldier,
       name = "hideme1",
       x = 280 * screenScaleX,
-      y = 160 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15,
+      y = 145 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15,
       w = 160 * screenScaleX,
       h = 12 * screenScaleY,
 	    flags = kHAlignLeft + kVAlignBottom,
@@ -306,14 +336,15 @@ MakeDialog
       font = XenonautsDisabledFont,
       name = "carriedweight",
       x = 280 * screenScaleX,
-      y = 160 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY,
+      y = 145 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY,
       w = 130 * screenScaleX,
       h = 8 * screenScaleY,
       barheight = 8 * screenScaleY,
       min = 0,
       max = 100,
       barcolor = pbarcolor,
-      barcolor2 = RedColor,
+      barcolor2 = BarLightGrey,
+      barcolor3 = RedColor,
       bgimage  = "uitextures/blackframetrans",
       barimage = "uitextures/white",
       bgtilebordersize = 4,
@@ -324,7 +355,7 @@ MakeDialog
       font = XenonautsLabelFontSmallStatbar,
       name = "carriedweightText",
       x = 280 * screenScaleX + 114 * screenScaleX,
-      y = 160 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY,
+      y = 145 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY,
       w = 40 * screenScaleX,
       h = 10 * screenScaleY,
 	    flags = kHAlignRight + kVAlignCenter,
@@ -338,7 +369,7 @@ MakeDialog
       font = MedSmallSoldier,
       name = "hideme2",
       x = 280 * screenScaleX,
-      y = 158 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY + 12 * screenScaleY + 5,
+      y = 143 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY + 12 * screenScaleY + 5,
       w = 160 * screenScaleX,
       h = 12 * screenScaleY,
 	    flags = kHAlignLeft + kVAlignBottom,
@@ -351,7 +382,7 @@ MakeDialog
       font = XenonautsDisabledFont,
       name = "apafterpen",
       x = 280 * screenScaleX,
-      y = 158 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY + 12 * screenScaleY + 5 + 12 * screenScaleY,
+      y = 143 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY + 12 * screenScaleY + 5 + 12 * screenScaleY,
       w = 130 * screenScaleX,
       h = 8 * screenScaleY,
       barheight = 8 * screenScaleY,
@@ -368,7 +399,7 @@ MakeDialog
       font = XenonautsLabelFontSmallStatbar,
       name = "apafterpenText",
       x = 280 * screenScaleX + 114 * screenScaleX,
-      y = 158 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY + 12 * screenScaleY + 5 + 12 * screenScaleY,
+      y = 143 * screenScaleY + ( 23 * screenScaleY + ( 160 * 2 / 5 ) * screenScaleX ) * 2 + 5 + 15 + 12 * screenScaleY + 12 * screenScaleY + 5 + 12 * screenScaleY,
       w = 40 * screenScaleX,
       h = 10 * screenScaleY,
 	    flags = kHAlignRight + kVAlignCenter,
@@ -510,7 +541,7 @@ MakeDialog
     {
 	    name  = "soldierinfo",
       x = 0,
-      y = 80,
+      y = 20,
       w = stw,
       h = sth,
       image = "ui_screens/ui_stores/speechbubble",
@@ -557,7 +588,7 @@ MakeDialog
         h = stw * 0.12,
   	    flags = kHAlignLeft + kVAlignTop,
         label = "undefined",
-			  fontScale = screenResolutionH * 0.019,
+			  fontScale = screenResolutionH * 0.021,
       },
       ClearingTextEdit
       {
@@ -569,7 +600,7 @@ MakeDialog
         h = stw * 0.12,
   	    flags = kHAlignLeft + kVAlignTop,
 			  utf8   = true,
-			  length = 40,
+			  length = 20,
 			  ignore = kIllegalNameChars,
       },
       SetStyle( XenonautsInvisibleTiledButtonStyle ),
@@ -1185,13 +1216,13 @@ MakeDialog
         },
       },
     },
-	-- Box fuer Liste
+
     TiledImage
     {
 	    name  = "assignment",
       x = 0,
       y = kMax - (ash * 1.03),
-      w = asw + 200,
+      w = asw,
       h = ash,
       image = "ui_screens/ui_stores/speechbubble",
       bordersize = 4,
@@ -1199,9 +1230,9 @@ MakeDialog
       ListControl
       {
         name = "assignmentlist",
-        x = ash * 0.16,
+        x = asc * 0.10,
         y = ash * 0.04,
-        w = asc - ash * 0.3,
+        w = asc * 0.8,
         h = ash * 0.92,
         font = SoldierListFont,
         fontScale = screenResolutionH * 0.014,
@@ -1216,6 +1247,7 @@ MakeDialog
           w = kMax,
           h = kMax,
           image = "ui_screens/ui_research/scrollbarspeech",
+          tint = Color(192,192,192,255),
           bordersize = 4,
 
           NonUniformScaledImage
@@ -1239,23 +1271,24 @@ MakeDialog
           image = "uitextures/black",
           tint = Color( 0, 0, 0, 25 );
       },
-      -- Liste
+      
       ListControl
       {
         name = "soldierlist",
-        x = asc + ash * 0.00,
+        x = asc + ash * 0.04,
         y = ash * 0.04,
-        w = kMax  * 0.01,
+        w = kMax - 3 * ash * 0.04 - 26,
         h = kMax - ash * 0.04,
         font = SoldierListFont,
-        fontScale = screenResolutionH * 0.0150,
+        fontScale = screenResolutionH * 0.014,
 		    thcolor = WhiteColor,
 		    mcolor = WhiteColor,
 
         column1x = c1x,
         column1w = c1w,
         column2x = c2x,
-        column2w = c2w + 200,
+        column2w = c2w,
+        hswl = true,
       
         TiledImage
         {
@@ -1265,6 +1298,7 @@ MakeDialog
           w = kMax,
           h = kMax,
           image = "ui_screens/ui_research/scrollbarspeech",
+          tint = Color(192,192,192,255),
           bordersize = 1,
 
           NonUniformScaledImage
@@ -1278,13 +1312,40 @@ MakeDialog
 	        },
         },
       },
+
+      SetStyle( ArrowMoveUpButtonStyle ),
+      NonUniformScaledButton
+      {
+        name  = "soldierlistmoveup",
+        x = kMax - ash * 0.04 - 26,
+        y = kMax / 2 - 20 - 39,
+        w = 26,
+        h = 39,
+        command =
+          function()
+            SoldierListMove( -1 );
+          end,
+      },
+      SetStyle( ArrowMoveDownButtonStyle ),
+      NonUniformScaledButton
+      {
+        name  = "soldierlistmovedown",
+        x = kMax - ash * 0.04 - 26,
+        y = kMax / 2 + 20,
+        w = 26,
+        h = 39,
+        command =
+          function()
+            SoldierListMove( 1 );
+          end,
+      },
     },
 
     TiledImage
     {
 	    name  = "weaponselect",
       x = kMax - (wsw * 1.02),
-      y = 80,
+      y = 20,
       w = wsw,
       h = wsh,
       image = "ui_screens/ui_stores/speechbubble",
@@ -1529,6 +1590,7 @@ MakeDialog
           h = kMax,
           font = MediumSoldier,
           fiw = wsw * 0.90,
+          hswl = true,
         
 			    TiledImage
 			    {
@@ -1538,6 +1600,7 @@ MakeDialog
 			      w = kMax,
 			      h = kMax,
 			      image = "ui_screens/ui_research/scrollbarspeech",
+                              tint = Color(192,192,192,255),
 			      bordersize = 1,
 
 			      NonUniformScaledImage
@@ -1933,7 +1996,7 @@ MakeDialog
       x = 610 * screenScaleX,
       y = 140 * screenScaleY + 160 * screenScaleX + 22 * screenScaleY + 5,
       w = 10 + 5 * Floor( 30 * screenScaleX ),
-      h = 10 + 5 * Floor( 30 * screenScaleX ) + 22 * screenScaleY,
+      h = 10 + 2 * Floor( 30 * screenScaleX ) + 22 * screenScaleY,
 	    image = "uitextures/titledframe",
 	    headimage = "uitextures/sequip/frametoptrans",
 	    bodyimage = "uitextures/sequip/framebottomtrans2",

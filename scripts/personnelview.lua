@@ -33,9 +33,11 @@ CommenceButtonGraphics = {
 	"ui_screens/ui_research/stores_buttonover",
 };
 
-local cpbheight = hww / ( 1141.0 / 233.0 ) * 1.5;
+local cpbheight = hww / ( 1141.0 / 233.0 ) * 2.2;
 
 local pageHeaderHeight      = cpbheight * 0.13;
+
+local memorialHeaderHeight  = cpbheight * 0.19;
 
 local tableLeft             = hww * 0.05;
 local tableWidth            = hww * 0.90;
@@ -68,11 +70,29 @@ local c10w = tableWidth*(1150/1252 - 1009/1252);
 local c11x = tableWidth*(1200/1252);
 local c11w = tableWidth*(20/1252);
 
+local mw_c1x = tableWidth * (15 / 100);
+local mw_c1w = tableWidth * ( 5 / 100);
+local mw_c2x = tableWidth * (20 / 100);
+local mw_c2w = tableWidth * (20 / 100);
+local mw_c3x = tableWidth * (40 / 100);
+local mw_c3w = tableWidth * ( 6 / 100);
+local mw_c4x = tableWidth * (46 / 100);
+local mw_c4w = tableWidth * ( 6 / 100);
+local mw_c5x = tableWidth * (52 / 100);
+local mw_c5w = tableWidth * (25 / 100);
+local mw_c6x = tableWidth * (77 / 100);
+local mw_c6w = tableWidth * (10 / 100);
+local mw_c7x = tableWidth * (87 / 100);
+local mw_c7w = tableWidth * (10 / 100);
+
 local sbx  = hww * 0.20;
 local sby  = hwh * 0.00;
 local sbw  = hww * 0.50;
 local sbh1 = hwh * 0.22;
 local sbh2 = hwh * 0.80;
+local hlx  = hww * 0.15;
+local hlw  = hww * 0.60;
+local hrw  = sbw * 0.86;
 
 local bbh = sbh1 * 0.33;
 
@@ -139,7 +159,7 @@ MakeDialog
     y = 0,
     w = kMax,
     h = kMax,
-    
+
     NonUniformScaledImage
     {
       name  = "clipboard",
@@ -171,7 +191,100 @@ MakeDialog
 	        flags = kHAlignLeft + kVAlignCenter,
           label = "PersonnelView.BaseName",
         },
-        
+
+        ComboBox
+        {
+          name = "rosterfilter",
+          x = tableWidth * 0.40,
+          y = pageHeaderHeight * 0.15,
+          w = tableWidth * 0.18,
+          h = pageHeaderHeight * 0.7,
+
+          NonUniformScaledImage
+          {
+            name = "combocontrolbg",
+            x = 0,
+            y = 0,
+            w = kMax,
+            h = kMax,
+            image = "uitextures/white",
+            tint = Color(192,192,192,255),
+
+            ScalingText
+            {
+              font = XenonautsTableContentsFont,
+              name = "textlabel",
+              x = 0,
+              y = 0,
+              w = kMax,
+              h = kMax,
+              flags = kHAlignCenter + kVAlignCenter,
+              label = "undefined",
+              fontScale = tableHeaderFontHeight * 1.2,
+              mouseover = true,
+              mouseovercolor = OverColor,
+            },
+          },
+          SetStyle( XenonautsTransparentTiledComboButtonStyle ),
+          TiledButton
+          {      
+            name = "combobutton",
+            x = 0,
+            y = 0,
+            w = kMax,
+            h = kMax,
+            bordersize = 2,
+	      
+            command = 
+              function()
+              end,
+          },
+          NonUniformScaledImage
+          {
+            name = "listcontrolbg",
+            x = 0,
+            y = pageHeaderHeight * 0.7 + 1,
+            w = kMax,
+            h = 100 * screenScaleY,
+            image = "uitextures/white",
+            tint = Color(192,192,192,255),
+
+            ListControl
+            {
+              name = "listcontrol",
+              x = 0,
+              y = 0,
+              w = kMax,
+              h = kMax,
+              font = XenonautsTableContentsFont,
+              fontScale = tableHeaderFontHeight * 1.2,
+              hswl = true,
+
+              TiledImage
+              {
+                name = "scrollbar",
+                x = kMax - 9,
+                y = 0,
+                w = kMax,
+                h = kMax,
+                image = "uitextures/scrollbar",
+                tint = Color(192,192,192,255),
+                bordersize = 4,
+
+                NonUniformScaledImage
+                {
+                  name  = "scrollbarBtn",
+                  x = 2,
+                  y = 2,
+                  w = 5,
+                  h = 5,
+                  image = "uitextures/white",
+                },
+              },
+            },
+          },
+        },
+
         SetStyle( CommenceButtonStyle ),
         TiledButton
         {
@@ -186,7 +299,7 @@ MakeDialog
           label = "PersonnelView.Transfer",
           grayondisabled = true,
 
-	        command = 
+	        command =
 	          function()
 	            TransferSoldiers();
             end,
@@ -205,7 +318,7 @@ MakeDialog
           label = "PersonnelView.Dismiss",
           grayondisabled = true,
 
-	        command = 
+	        command =
 	          function()
 	            DismissSoldiers();
             end,
@@ -216,7 +329,7 @@ MakeDialog
       {
         font = XenonautsTableHeaderFont,
         name = "col00",
-        x = tableLeft + c1x + 25.00,
+        x = tableLeft + c1x,
         y = tableTop + pageHeaderHeight * 1.10,
         w = c1w,
         h = tableHeaderHeight,
@@ -225,7 +338,7 @@ MakeDialog
         label = "PersonnelView.Rank",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 0 );
           end,
@@ -234,16 +347,16 @@ MakeDialog
       {
         font = XenonautsTableHeaderFont,
         name = "col01",
-        x = c2x,
+        x = c2x + 20,
         y = tableTop + pageHeaderHeight * 1.10,
-        w = c2w,
+        w = c2w - 20,
         h = tableHeaderHeight,
         fontScale = navigationText,
 	      flags = kHAlignCenter + kVAlignCenter,
         label = "PersonnelView.Name",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 1 );
           end,
@@ -261,7 +374,7 @@ MakeDialog
         label = "PersonnelView.APS",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 2 );
           end,
@@ -279,7 +392,7 @@ MakeDialog
         label = "PersonnelView.HPS",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 3 );
           end,
@@ -297,7 +410,7 @@ MakeDialog
         label = "PersonnelView.STR",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 4 );
           end,
@@ -315,7 +428,7 @@ MakeDialog
         label = "PersonnelView.ACC",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 5 );
           end,
@@ -333,7 +446,7 @@ MakeDialog
         label = "PersonnelView.RFL",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 6 );
           end,
@@ -351,7 +464,7 @@ MakeDialog
         label = "PersonnelView.BRV",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 7 );
           end,
@@ -369,7 +482,7 @@ MakeDialog
         label = "PersonnelView.Role",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 8 );
           end,
@@ -387,7 +500,7 @@ MakeDialog
         label = "PersonnelView.Status",
         mouseover = true,
         mouseovercolor = BubbleOverColor,
-        command = 
+        command =
           function()
             SortSoldiers( 0, 9 );
           end,
@@ -403,7 +516,7 @@ MakeDialog
         fontScale = navigationText,
 	      flags = kHAlignCenter + kVAlignCenter,
         label = "Empty",
-        command = 
+        command =
           function()
             SortSoldiers( 0, 10 );
           end,
@@ -433,7 +546,7 @@ MakeDialog
         drawSelection = true,
         scrollspeed = 1,
         fullrowhighlight = true,
-        
+
         column1x = c1x,
         column1w = c1w,
         column2x = c2x,
@@ -465,6 +578,7 @@ MakeDialog
           w = kMax,
           h = kMax,
           image = "ui_screens/ui_research/scrollbarspeech",
+          tint = Color(192,192,192,255),
           bordersize = 1,
 
           NonUniformScaledImage
@@ -483,7 +597,7 @@ MakeDialog
     {
       name = "manage_tab",
       x = sbx,
-      y = sbh1 * 0.4,
+      y = sby,
       w = sbw,
       h = sbh1,
       image = "ui_screens/ui_stores/speechbubble",
@@ -504,7 +618,17 @@ MakeDialog
       NonUniformScaledImage
       {
         name  = "static",
-        x = sbw / 2,
+        x = sbw / 3,
+        y = sbh1 * 0.66,
+        w = 1,
+        h = kMax - 2,
+        image = "uitextures/white",
+        tint = Color(0,0,0,25),
+      },
+      NonUniformScaledImage
+      {
+        name  = "static",
+        x = sbw * (2 / 3),
         y = sbh1 * 0.66,
         w = 1,
         h = kMax - 2,
@@ -518,7 +642,7 @@ MakeDialog
         name = "managesoldiersbtn",
         x = 0,
         y = sbh1 * 0.66,
-        w = sbw / 2,
+        w = sbw / 3,
         h = kMax - 2,
         bordersize = 1,
         font = BubbleButtonFont,
@@ -531,9 +655,9 @@ MakeDialog
       TiledButton
       {
         name = "hirebtn",
-        x = sbw / 2,
+        x = sbw / 3,
         y = sbh1 * 0.66,
-        w = kMax,
+        w = sbw / 3,
         h = kMax - 2,
         bordersize = 1,
         font = BubbleButtonFont,
@@ -541,11 +665,312 @@ MakeDialog
         downfontcolor = BubbleDownColor,
         fontScale = navigationText,
         label = "PersonnelView.Hire",
-        command = 
+        command =
           function()
 	          HireSelected();
           end,
+      },
+      TiledButton
+      {
+        name = "memorialwallbtn",
+        x = sbw * (2 / 3),
+        y = sbh1 * 0.66,
+        w = sbw / 3,
+        h = kMax - 2,
+        bordersize = 1,
+        font = BubbleButtonFont,
+        overfontcolor = BubbleOverColor,
+        downfontcolor = BubbleDownColor,
+        fontScale = navigationText,
+        label = "PersonnelView.MemorialWall",
+        command =
+          function()
+            MemorialWall();
+          end,
       }
+    },
+
+    TiledImage
+    {
+      name = "memorial_tab",
+      x = sbx,
+      y = sby,
+      w = sbw,
+      h = sbh1,
+      image = "ui_screens/ui_stores/speechbubble",
+      bordersize = 4,
+
+      ScalingText
+      {
+        font = XenonautsTableContentsFont,
+        name = "static",
+        x = sbw * 0.1,
+        y = 0,
+        w = sbw * 0.8,
+        h = sbh1 * 0.66,
+        fontScale = tableHeaderFontHeight,
+        flags = kHAlignCenter + kVAlignCenter,
+        label = "PersonnelView.Comment3",
+      },
+      NonUniformScaledImage
+      {
+        name  = "static",
+        x = sbw / 3,
+        y = sbh1 * 0.66,
+        w = 1,
+        h = kMax - 2,
+        image = "uitextures/white",
+        tint = Color(0,0,0,25),
+      },
+      NonUniformScaledImage
+      {
+        name  = "static",
+        x = sbw * (2 / 3),
+        y = sbh1 * 0.66,
+        w = 1,
+        h = kMax - 2,
+        image = "uitextures/white",
+        tint = Color(0,0,0,25),
+      },
+      BeginGroup(),
+      SetStyle( BubbleButtonStyle ),
+      TiledButton
+      {
+        name = "managesoldiersbtn",
+        x = 0,
+        y = sbh1 * 0.66,
+        w = sbw / 3,
+        h = kMax - 2,
+        bordersize = 1,
+        font = BubbleButtonFont,
+        overfontcolor = BubbleOverColor,
+        downfontcolor = BubbleDownColor,
+        fontScale = navigationText,
+        label = "PersonnelView.Manage",
+        command =
+          function()
+            ManageSelected();
+          end,
+      },
+      TiledButton
+      {
+        name = "hirebtn",
+        x = sbw / 3,
+        y = sbh1 * 0.66,
+        w = sbw / 3,
+        h = kMax - 2,
+        bordersize = 1,
+        font = BubbleButtonFont,
+        overfontcolor = BubbleOverColor,
+        downfontcolor = BubbleDownColor,
+        fontScale = navigationText,
+        label = "PersonnelView.Hire",
+        command =
+          function()
+            HireSelected();
+          end,
+      },
+      TiledButton
+      {
+        name = "memorialwallbtn",
+        x = sbw * (2 / 3),
+        y = sbh1 * 0.66,
+        w = sbw / 3,
+        h = kMax - 2,
+        bordersize = 1,
+        font = BubbleButtonFont,
+        overfontcolor = BubbleOverColor,
+        downfontcolor = BubbleDownColor,
+        fontScale = navigationText,
+        label = "PersonnelView.MemorialWall",
+        outline = 2
+      }
+    },
+
+    NonUniformScaledImage
+    {
+      name = "memorial_wall",
+      x = 0,
+      y = hwh - cpbheight,
+      w = hww,
+      h = kMax,
+      image = "ui_screens/ui_personnel/memorial_clipboard",
+
+      ScalingText
+      {
+        font = XenonautsTableHeaderFont,
+        name = "col20",
+        x = tableLeft + mw_c1x,
+        y = memorialHeaderHeight,
+        w = mw_c1w,
+        h = tableHeaderHeight,
+        fontScale = navigationText,
+        flags = kHAlignLeft + kVAlignCenter,
+        label = "PersonnelView.Rank",
+        command =
+          function()
+            SortSoldiers( 2, 0 );
+          end,
+      },
+      ScalingText
+      {
+        font = XenonautsTableHeaderFont,
+        name = "col21",
+        x = tableLeft + mw_c2x,
+        y = memorialHeaderHeight,
+        w = mw_c2w,
+        h = tableHeaderHeight,
+        fontScale = navigationText,
+        flags = kHAlignLeft + kVAlignCenter,
+        label = "PersonnelView.Name",
+        command =
+          function()
+            SortSoldiers( 2, 1 );
+          end,
+      },
+      ScalingText
+      {
+        font = XenonautsTableHeaderFont,
+        name = "col22",
+        x = tableLeft + mw_c3x,
+        y = memorialHeaderHeight,
+        w = mw_c3w,
+        h = tableHeaderHeight,
+        fontScale = navigationText,
+        flags = kHAlignCenter + kVAlignCenter,
+        label = "PersonnelView.Missions",
+        command =
+          function()
+            SortSoldiers( 2, 2 );
+          end,
+      },
+      ScalingText
+      {
+        font = XenonautsTableHeaderFont,
+        name = "col23",
+        x = tableLeft + mw_c4x,
+        y = memorialHeaderHeight,
+        w = mw_c4w,
+        h = tableHeaderHeight,
+        fontScale = navigationText,
+        flags = kHAlignCenter + kVAlignCenter,
+        label = "PersonnelView.Kills",
+        command =
+          function()
+            SortSoldiers( 2, 3 );
+          end,
+      },
+      ScalingText
+      {
+        font = XenonautsTableHeaderFont,
+        name = "col24",
+        x = tableLeft + mw_c5x,
+        y = memorialHeaderHeight,
+        w = mw_c5w,
+        h = tableHeaderHeight,
+        fontScale = navigationText,
+        flags = kHAlignLeft + kVAlignCenter,
+        label = "PersonnelView.LastMission",
+        command =
+          function()
+            SortSoldiers( 2, 4 );
+          end,
+      },
+      ScalingText
+      {
+        font = XenonautsTableHeaderFont,
+        name = "col25",
+        x = tableLeft + mw_c6x,
+        y = memorialHeaderHeight,
+        w = mw_c6w,
+        h = tableHeaderHeight,
+        fontScale = navigationText,
+        flags = kHAlignCenter + kVAlignCenter,
+        label = "PersonnelView.Date",
+        command =
+          function()
+            SortSoldiers( 2, 5 );
+          end,
+      },
+      ScalingText
+      {
+        font = XenonautsTableHeaderFont,
+        name = "col26",
+        x = tableLeft + mw_c7x,
+        y = memorialHeaderHeight,
+        w = mw_c7w,
+        h = tableHeaderHeight,
+        fontScale = navigationText,
+        flags = kHAlignCenter + kVAlignCenter,
+        label = "PersonnelView.Status",
+        command =
+          function()
+            SortSoldiers( 2, 6 );
+          end,
+      },
+
+      NonUniformScaledImage
+      {
+        name  = "static",
+        x = tableLeft,
+        y = tableHeaderHeight + memorialHeaderHeight,
+        w = tableWidth,
+        h = 1,
+        image = "uitextures/white",
+        tint = Color(0,0,0,25),
+      },
+
+      ListControl
+      {
+        name  = "memorial_list",
+        x = tableLeft,
+        y = tableHeaderHeight + memorialHeaderHeight + 2,
+        w = tableWidth,
+        h = kMax,
+        font = XenonautsTableContentsFont,
+        fontScale = tableHeaderFontHeight,
+        hswl = true,
+        drawSelection = true,
+        scrollspeed = 1,
+        fullrowhighlight = true,
+
+        column1x = mw_c1x,
+        column1w = mw_c1w,
+        column2x = mw_c2x,
+        column2w = mw_c2w,
+        column3x = mw_c3x,
+        column3w = mw_c3w,
+        column4x = mw_c4x,
+        column4w = mw_c4w,
+        column5x = mw_c5x,
+        column5w = mw_c5w,
+        column6x = mw_c6x,
+        column6w = mw_c6w,
+        column7x = mw_c7x,
+        column7w = mw_c7w,
+
+        TiledImage
+        {
+          name = "scrollbar",
+          x = kMax - 9,
+          y = 0,
+          w = kMax,
+          h = kMax,
+          image = "ui_screens/ui_research/scrollbarspeech",
+          tint = Color(192,192,192,255),
+          bordersize = 1,
+
+          NonUniformScaledImage
+          {
+            name  = "scrollbarBtn",
+            x = 2,
+            y = 2,
+            w = 5,
+            h = 1,
+            image = "ui_screens/ui_research/scrollbar_button",
+          },
+        },
+      },
     },
 
     TiledImage
@@ -554,7 +979,7 @@ MakeDialog
       x = sbx,
       y = sby,
       w = sbw,
-      h = sbh2 - (sbh2 * 0.08),
+      h = sbh1,
       image = "ui_screens/ui_stores/speechbubble",
       bordersize = 4,
 
@@ -562,20 +987,104 @@ MakeDialog
       {
         font = XenonautsTableContentsFont,
         name = "static",
-        x = 0,
-        y = -sbh2 * 0.01,
-        w = kMax,
-        h = sbh2 * 0.16,
+        x = sbw * 0.1,
+        y = 0,
+        w = sbw * 0.8,
+        h = sbh1 * 0.66,
         fontScale = tableHeaderFontHeight,
-	      flags = kHAlignCenter + kVAlignCenter,
+        flags = kHAlignCenter + kVAlignCenter,
         label = "PersonnelView.Comment2",
       },
+      NonUniformScaledImage
+      {
+        name  = "static",
+        x = sbw / 3,
+        y = sbh1 * 0.66,
+        w = 1,
+        h = kMax - 2,
+        image = "uitextures/white",
+        tint = Color(0,0,0,25),
+      },
+      NonUniformScaledImage
+      {
+        name  = "static",
+        x = sbw * (2 / 3),
+        y = sbh1 * 0.66,
+        w = 1,
+        h = kMax - 2,
+        image = "uitextures/white",
+        tint = Color(0,0,0,25),
+      },
+      BeginGroup(),
+      SetStyle( BubbleButtonStyle ),
+      TiledButton
+      {
+        name = "managesoldiersbtn",
+        x = 0,
+        y = sbh1 * 0.66,
+        w = sbw / 3,
+        h = kMax - 2,
+        bordersize = 1,
+        font = BubbleButtonFont,
+        overfontcolor = BubbleOverColor,
+        downfontcolor = BubbleDownColor,
+        fontScale = navigationText,
+        label = "PersonnelView.Manage",
+        command =
+          function()
+            ManageSelected();
+          end,
+      },
+      TiledButton
+      {
+        name = "hirebtn",
+        x = sbw / 3,
+        y = sbh1 * 0.66,
+        w = sbw / 3,
+        h = kMax - 2,
+        bordersize = 1,
+        font = BubbleButtonFont,
+        overfontcolor = BubbleOverColor,
+        downfontcolor = BubbleDownColor,
+        fontScale = navigationText,
+        label = "PersonnelView.Hire",
+        outline = 2,
+      },
+      TiledButton
+      {
+        name = "memorialwallbtn",
+        x = sbw * (2 / 3),
+        y = sbh1 * 0.66,
+        w = sbw / 3,
+        h = kMax - 2,
+        bordersize = 1,
+        font = BubbleButtonFont,
+        overfontcolor = BubbleOverColor,
+        downfontcolor = BubbleDownColor,
+        fontScale = navigationText,
+        label = "PersonnelView.MemorialWall",
+        command =
+          function()
+            MemorialWall();
+          end,
+      }
+    },
+
+    NonUniformScaledImage
+    {
+      name = "hire_list",
+      x = hlx,
+      y = hwh - cpbheight,
+      w = hlw,
+      h = kMax,
+      image = "ui_screens/ui_personnel/personnel_clipboard",
+
       TiledImage
       {
         name = "static",
-        x = sbw * 0.07,
-        y = (sbh2 * 0.16) - (sbh2 * 0.03),
-        w = sbw * 0.86,
+        x = sbw * 0.07 + ( hlw - sbw ) / 2,
+        y = sbh2 * 0.12,
+        w = hrw,
         h = sbh2 * 0.60,
         image = "ui_screens/ui_research/speechbubble_white",
         bordersize = 4,
@@ -585,13 +1094,13 @@ MakeDialog
           font = XenonautsTableHeaderFont,
           name = "col10",
           x = hc1x * 0.9,
-          y = sbh2 * 0.002,
+          y = sbh2 * 0.005,
           w = hc1w,
           h = hireTableHeaderHeight,
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignLeft + kVAlignCenter,
           label = "PersonnelView.Rank",
-          command = 
+          command =
             function()
               SortSoldiers( 1, 0 );
             end,
@@ -607,7 +1116,7 @@ MakeDialog
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignCenter + kVAlignCenter,
           label = "PersonnelView.Name",
-          command = 
+          command =
             function()
               SortSoldiers( 1, 1 );
             end,
@@ -623,7 +1132,7 @@ MakeDialog
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignCenter + kVAlignCenter,
           label = "PersonnelView.APS",
-          command = 
+          command =
             function()
               SortSoldiers( 1, 2 );
             end,
@@ -639,7 +1148,7 @@ MakeDialog
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignCenter + kVAlignCenter,
           label = "PersonnelView.HPS",
-          command = 
+          command =
             function()
               SortSoldiers( 1, 3 );
             end,
@@ -655,7 +1164,7 @@ MakeDialog
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignCenter + kVAlignCenter,
           label = "PersonnelView.STR",
-          command = 
+          command =
             function()
               SortSoldiers( 1, 4 );
             end,
@@ -671,7 +1180,7 @@ MakeDialog
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignCenter + kVAlignCenter,
           label = "PersonnelView.ACC",
-          command = 
+          command =
             function()
               SortSoldiers( 1, 5 );
             end,
@@ -687,7 +1196,7 @@ MakeDialog
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignCenter + kVAlignCenter,
           label = "PersonnelView.RFL",
-          command = 
+          command =
             function()
               SortSoldiers( 1, 6 );
             end,
@@ -703,7 +1212,7 @@ MakeDialog
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignCenter + kVAlignCenter,
           label = "PersonnelView.BRV",
-          command = 
+          command =
             function()
               SortSoldiers( 1, 7 );
             end,
@@ -719,12 +1228,12 @@ MakeDialog
           fontScale = tableHeaderFontHeight,
 	        flags = kHAlignCenter + kVAlignCenter,
           label = "Empty",
-          command = 
+          command =
             function()
               SortSoldiers( 1, 8 );
             end,
         },
-        
+
         NonUniformScaledImage
         {
           name  = "static",
@@ -749,7 +1258,7 @@ MakeDialog
           drawSelection = true,
           fullrowhighlight = true,
           highlightonly = true,
-          
+
           column1x = hc1x,
           column1w = hc1w,
           column2x = hc2x,
@@ -791,12 +1300,12 @@ MakeDialog
           },
         },
       },
-      
+
       TiledImage
       {
         name = "static",
-        x = sbw * 0.07,
-        y = sbh2 * 0.78 - (sbh2 * 0.03),
+        x = sbw * 0.07 + ( hlw - sbw ) / 2,
+        y = sbh2 * 0.74,
         w = sbw * 0.47,
         h = sbh2 * 0.04,
         image = "ui_screens/ui_research/stores_buttonup",
@@ -850,9 +1359,9 @@ MakeDialog
       TiledButton
       {
         name = "hirebtn",
-        x = sbw * 0.72,
-        y = (sbh2 * 0.78) - (sbh2 * 0.03),
-        w = sbw * 0.21,
+        x = sbw * 0.62 + ( sbw - hrw ) / 2,
+        y = sbh2 * 0.74,
+        w = sbw * 0.31,
         h = sbh2 * 0.04,
         fontScale = tableHeaderFontHeight,
         bordersize = 1,
@@ -860,57 +1369,83 @@ MakeDialog
         label = "PersonnelView.HireBtn",
         grayondisabled = true,
 
-        command = 
+        command =
           function()
             HireSoldiers();
           end,
       },
-      
-      NonUniformScaledImage
+      ScalingText
       {
-        name  = "static",
-        x = sbw / 2,
-        y = (sbh2 - sbh1 * 0.34) - (sbh2 * 0.08),
-        w = 1,
-        h = kMax - 2,
-        image = "uitextures/white",
-        tint = Color(0,0,0,25),
+        font = XenonautsTableContentsFont,
+        name = "static",
+        x = sbw * 0.07 + ( hlw - sbw ) / 2,
+        y = sbh2 * 0.79,
+        w = sbw  * 0.47,
+        h = sbh2 * 0.4  * 0.1,
+        fontScale = tableHeaderFontHeight,
+        flags = kHAlignLeft + kVAlignCenter,
+        label = "PersonnelView.TotalSoldiers",
       },
-      BeginGroup(),
-      SetStyle( BubbleButtonStyle ),
-      TiledButton
+      ScalingText
       {
-        name = "managesoldiersbtn",
-        x = 0,
-        y = (sbh2 - sbh1 * 0.34) - (sbh2 * 0.08),
-        w = sbw / 2,
-        h = kMax - 2,
-        bordersize = 1,
-        font = BubbleButtonFont,
-        overfontcolor = BubbleOverColor,
-        downfontcolor = BubbleDownColor,
-        fontScale = navigationText,
-        label = "PersonnelView.Manage",
-        command = 
-          function()
-	          ManageSelected();
-          end,
+        font = XenonautsTableContentsFont,
+        name = "totalsoldiers",
+        x = sbw * 0.07 + ( hlw - sbw ) / 2,
+        y = sbh2 * 0.79,
+        w = sbw  * 0.47,
+        h = sbh2 * 0.4  * 0.1,
+        fontScale = tableHeaderFontHeight,
+        flags = kHAlignRight + kVAlignCenter,
+        label = "#50",
       },
-      TiledButton
+      ScalingText
       {
-        name = "hirebtn",
-        x = sbw / 2,
-        y = (sbh2 - sbh1 * 0.34) - (sbh2 * 0.08),
-        w = kMax,
-        h = kMax - 2,
-        bordersize = 1,
-        font = BubbleButtonFont,
-        overfontcolor = BubbleOverColor,
-        downfontcolor = BubbleDownColor,
-        fontScale = navigationText,
-        label = "PersonnelView.Hire",
-		outline = 2,
+        font = XenonautsTableContentsFont,
+        name = "static",
+        x = sbw * 0.07 + ( hlw - sbw ) / 2,
+        y = sbh2 * 0.83,
+        w = sbw  * 0.47,
+        h = sbh2 * 0.4  * 0.1,
+        fontScale = tableHeaderFontHeight,
+        flags = kHAlignLeft + kVAlignCenter,
+        label = "PersonnelView.Wages",
+      },
+      ScalingText
+      {
+        font = XenonautsTableContentsFont,
+        name = "soldierwages",
+        x = sbw * 0.07 + ( hlw - sbw ) / 2,
+        y = sbh2 * 0.83,
+        w = sbw  * 0.47,
+        h = sbh2 * 0.4  * 0.1,
+        fontScale = tableHeaderFontHeight,
+        flags = kHAlignRight + kVAlignCenter,
+        label = "PersonnelView.PerMonth",
+      },
+      ScalingText
+      {
+        font = XenonautsTableContentsFont,
+        name = "static",
+        x = sbw * 0.62 + ( hlw - sbw ) / 2,
+        y = sbh2 * 0.79,
+        w = sbw  * 0.31,
+        h = sbh2 * 0.4  * 0.1,
+        fontScale = tableHeaderFontHeight,
+        flags = kHAlignLeft + kVAlignCenter,
+        label = "PersonnelView.HireCost",
+      },
+      ScalingText
+      {
+        font = XenonautsTableContentsFont,
+        name = "hirecost",
+        x = sbw * 0.62 + ( hlw - sbw ) / 2,
+        y = sbh2 * 0.79,
+        w = sbw  * 0.31,
+        h = sbh2 * 0.4  * 0.1,
+        fontScale = tableHeaderFontHeight,
+        flags = kHAlignRight + kVAlignCenter,
+        label = "#0",
       }
-    },
+    }
   }
 }

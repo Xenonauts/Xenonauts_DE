@@ -1,7 +1,13 @@
 <?xml version="1.0"?>
 <ModInfo>
-   <Name>Xenonauts_DE</Name>
-   <Version>0.97</Version>
-   <Author>Selgald</Author>
-   <Description>Deutsche Uebersetzung</Description>
+  <Name>xce (DE)</Name>
+  <VisibleName>X:CE Base Mod (DE)</VisibleName>
+  <Version>0.34</Version>
+  <Author>Selgald, GoethesFaust, PaulJay ...</Author>
+  <Languages>de</Languages>
+  <Translates>xce</Translates>
+  <Description>Deutsche Uebersetzung
+  </Description>
 </ModInfo>
+
+

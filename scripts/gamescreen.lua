@@ -299,7 +299,7 @@ MakeDialog
 		name = "buildBaseLink",
 		x = kMax/2 - 495 * screenScaleY * gfxscale,
 		y = 45 * screenScaleY * gfxscale,
-	    w = 540 * screenScaleY * gfxscale,
+	    w = 540 * screenScaleY * gfxscale, -- 248 * screenScaleY * gfxscale,
 		h = 79 * screenScaleY * gfxscale,
 		flags = kVAlignCenter + kHAlignRight,
 		fontScale = 1 * screenScaleY,
@@ -448,7 +448,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "NA",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -464,7 +464,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "CA",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -480,7 +480,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "SA",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -496,7 +496,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "EU",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -512,7 +512,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "SU",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -528,7 +528,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "NAF",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -544,7 +544,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "SAF",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -560,7 +560,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "ME",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -576,7 +576,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "CH",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -592,7 +592,7 @@ MakeDialog
           h = 16,
           align = kHAlignLeft + kVAlignBottom,
           left = "AU",
-          right = "0",
+          right = "#0",
           leftcolor = OrangeTextColor,
           dotscolor = WhiteColor,
           rightcolor = DarkOrangeTextColor,
@@ -914,37 +914,11 @@ MakeDialog
 		uppercase = false,
 	  },
 	  
-      SetStyle( PplButtonStyle ),
-      Button
-      {
-        name = "personnel",
-        x = 856 * screenScaleY * gfxscale,
-        y = 16 * screenScaleY * gfxscale,
-        scale = screenScaleY * gfxscale,
-        
-   		  command = 
-		      function()
-				SetWindowVisible( "navigationBar", false );
-				DisplayDialog { "scripts/managementbar.lua", activeTab = "personnel" };
-		      end,
-      },
-	  TooltipRect
-	  {
-		name = "personnel_tooltip",
-		x = 856 * screenScaleY * gfxscale,
-		y = 16 * screenScaleY * gfxscale,
-		w = 100,
-		h = 100,
-		
-		text="PersonnelHeaderName",
-		uppercase = false,
-	  },
-	  
       SetStyle( StoreButtonStyle ),
       Button
       {
         name = "store",
-        x = 996 * screenScaleY * gfxscale,
+        x = 856 * screenScaleY * gfxscale,
         y = 16 * screenScaleY * gfxscale,
         scale = screenScaleY * gfxscale,
         
@@ -957,12 +931,38 @@ MakeDialog
 	  TooltipRect
 	  {
 		name = "store_tooltip",
-		x = 996 * screenScaleY * gfxscale,
+		x = 856 * screenScaleY * gfxscale,
 		y = 16 * screenScaleY * gfxscale,
 		w = 100,
 		h = 100,
 		
 		text="StoreHeaderName",
+		uppercase = false,
+	  },
+	  
+      SetStyle( PplButtonStyle ),
+      Button
+      {
+        name = "personnel",
+        x = 996 * screenScaleY * gfxscale,
+        y = 16 * screenScaleY * gfxscale,
+        scale = screenScaleY * gfxscale,
+        
+   		  command = 
+		      function()
+				SetWindowVisible( "navigationBar", false );
+				DisplayDialog { "scripts/managementbar.lua", activeTab = "personnel" };
+		      end,
+      },
+	  TooltipRect
+	  {
+		name = "personnel_tooltip",
+		x = 996 * screenScaleY * gfxscale,
+		y = 16 * screenScaleY * gfxscale,
+		w = 100,
+		h = 100,
+		
+		text="PersonnelHeaderName",
 		uppercase = false,
 	  },
 	  
