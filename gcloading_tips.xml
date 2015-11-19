@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0"?>
-<GCLoadingTips>
+<GCLoadingTips MODMERGE="replace">
 
-<Tip showOnFirstGroundCombat="true">The game launcher contains a short "Quickstart Guide" that explains the key game mechanics.
+<Tip showOnFirstGroundCombat="true">Der Spielstarter beinhaltet eine kurze Schnellstartanleitung, die grundlegende Spielmechaniken erklärt.
 
-Consider reading it if you are struggling with the difficulty.
+Du solltest sie lesen, falls das Spiel zu schwer für dich ist.
 </Tip>
 
-<Tip>You can change the save game directory in the launcher.</Tip>
+<Tip>"Du kannst Im Spielstarter das Speicherverzeichnis für Spielstände ändern.</Tip>
 
-<Tip>Xenonauts: Community Edition is a free unofficial update of the game created by community coders with source code access.
+<Tip>Xenonauts: Community Edition ist ein kostenloses, inoffizielles Update, das von Community-Programmierern mit Zugriff auf Quellcode erstellt wurde.
 
-Details of how to access it are included in the launcher.</Tip>
+Einzelheiten darüber, wie du es aktivierst, findest du im Spielstarter.</Tip>
 
-<Tip>Im Lieferumfang Ihres Spiels ist eine kostenlose Erzählung enthalten, die über den Zwischenfall auf Island im Jahr 1958 and die anschließende Gründung der Xenonauten berichtet.
+<Tip>Im Lieferumfang des Spiels ist eine kostenlose Novelle im PDF-Format enthalten, die über den Island-Zwischenfall im Jahr 1958 und die anschließende Gründung der Xenonauts berichtet.
 
-Sie kann im Spielstarter unter dem Reiter 'Extras' gefunden werden.</Tip>
+Du findest sie im Spielstarter unter dem Reiter 'Extras'.</Tip>
 
-<Tip>Soldier Roles have no gameplay effect, but can easily sort troops / save equipment loadouts.</Tip>
+<Tip>"Soldatenklassen nehmen zwar keinen Einfluss auf das Spiel, können jedoch zum Sortieren der Einheiten oder zum Speichern der Ausrüstungszusammenstellungen benutzt werden.</Tip>
 
 <Tip>If base defence turrets fail to repel an attacking UFO, they will still reduce the number of aliens in the landing party.</Tip>
 
-<Tip>Only half of the damage taken from an injury can be healed with a medipack.</Tip>
+<Tip>Nur die Hälfte der bei einer Verletzung verlorenen Lebenspunkte können mit einem Medipack geheilt werden</Tip>
 
-<Tip>You can have up to three interceptors in a squadron, useful for tackling larger UFOs.</Tip>
+<Tip>Du kannst Staffeln aus bis zu drei Abfangjägern gegen größere UFOs oder UFO-Verbände einsetzen.</Tip>
 
-<Tip>Soldiers and aircraft can be sent into battle as long as they have more than 50% health.</Tip>
+<Tip>Sofern Soldaten und Flugzeuge über 50% Trefferpunkte oder mehr verfügen, können sie in ein Gefecht geschickt werden.</Tip>
 
-<Tip>Airstriking a crash site gives almost as much money as completing it, but will not recover new technology and grants no soldier experience.</Tip>
+<Tip>"Luftschläge auf Absturzstellen bringen fast genau soviel Geld wie Bodenoperationen ein, verhindern jedoch das Bergen von Technologie und gewähren Soldaten keinerlei Erfahrung.</Tip>
 
 <Tip>Xenonaut casualties have a small chance of surviving a battle, reduced the further the soldier's hitpoints fall below zero.</Tip>
 
-<Tip>UFOs shot down over water will not create a crash site, but still provide a relations bonus.</Tip>
+<Tip>Über Gewässer abgeschossene UFOs erzeugen keine Absturzstellen, tragen aber dennoch zur Verbesserung der Beziehungen zu betroffenen Ländern bei.</Tip>
 
-<Tip>This game would not have been possible without the many generous people who pre-ordered it before it was completed.</Tip>
+<Tip>Dieses Spiel wäre ohne die vielen großzügigen Menschen nicht denkbar, die das Spiel noch vor Fertigstellung vorbestellt haben</Tip>
 
-<Tip>Research projects can be shared between different bases, but Workshop projects cannot.</Tip>
+<Tip>Forschungsprojekte können auf verschiedene Stützpunkte aufgeteilt werden, Werkstattaufträge nicht.</Tip>
 
-<Tip>Falls ein Abfangjäger abgeschossen wird, wird er automatisch geborgen und wiederhergestellt.
+<Tip>Falls ein Abfangjäger abgeschossen wird, wird er automatisch geborgen und wieder instandgesetzt.
 
-Dieser Prozess nimmt deutlich mehr Zeit in Anspruch, als eine normale Reparatur und sollte daher möglichst vermieden werden.</Tip>
+Dies dauert deutlich länger als eine herkömmliche Reparatur und sollte möglichst vermieden werden.</Tip>
 
 <Tip>Use free aim mode to target anything - activate it by holding Ctrl or clicking the UI weapon image.</Tip>
 
@@ -48,7 +48,7 @@ Dieser Prozess nimmt deutlich mehr Zeit in Anspruch, als eine normale Reparatur 
 
 <Tip>A suppressed target is unable to reaction fire and has reduced TUs in the following turn.</Tip>
 
-<Tip>Burst fire is inaccurate, but good for suppression or at short range.</Tip>
+<Tip>Feuersalven sind auf Distanz ungenau, erzeugen jedoch eine hohe Unterdrückung sowie hohen Schaden auf kurze Entfernung</Tip>
 
 <Tip>Closing to within 5 tiles of a target grants +15% bonus accuracy per tile, capping at 60%.</Tip>
 
@@ -56,13 +56,13 @@ Dieser Prozess nimmt deutlich mehr Zeit in Anspruch, als eine normale Reparatur 
 
 <Tip>You can shoot over cover (or crouched Xenonauts) in an adjacent tile without fear of hitting it.</Tip>
 
-<Tip>Both human and alien armour degrades as it absorbs damage, becoming less effective for the remainder of the mission.</Tip>
+<Tip>Die Kampfpanzerung der Menschen als auch der Außerirdischen büßt mit jedem Treffer an Effektivität bis zum Ende der Mission ein.</Tip>
 
 <Tip>Bei Ermittlung des Schadens spielt die Zufallskomponente eine sehr große Rolle - so kann ein Schuss zwischen 50% und 150% seines Basisschadens verursachen.</Tip>
 
-<Tip>Accuracy and damage fall rapidly if a weapon is outside its effective range.</Tip>
+<Tip>Genauigkeit und Schaden einer Waffe nehmen stark ab, sobald das Ziel außerhalb ihrer effektiven Reichweite liegt</Tip>
 
-<Tip>Winning a medal grants a soldier +1 bravery.</Tip>
+<Tip>Der Erhalt einer Medaille verleiht einem Soldaten +1 Tapferkeit.</Tip>
 
 <Tip>Your starting squad have better stats than rookies, so keep them alive where possible.</Tip>
 
@@ -78,7 +78,7 @@ Dieser Prozess nimmt deutlich mehr Zeit in Anspruch, als eine normale Reparatur 
 
 <Tip>You can set a flight path for an interceptor by holding shift to generate a series of movement waypoints.</Tip>
 
-<Tip>High morale offers protection against alien psionic powers.</Tip>
+<Tip>Hohe Moral ehöht Resistenz gegen psionische Kräfte der Außerirdischen.</Tip>
 
 <Tip>The highest-ranking Xenonaut on a mission is the mission commander, providing a global morale bonus whilst alive.</Tip>
 
@@ -88,7 +88,7 @@ Dieser Prozess nimmt deutlich mehr Zeit in Anspruch, als eine normale Reparatur 
 
 <Tip>Shooting with heavy weapons uses the lower of Strength or Accuracy.</Tip>
 
-<Tip>A soldier on low morale may panic, flee or go berserk at the start of each turn.</Tip>
+<Tip>Ein Soldat mit gesunkener/geringer Moral kann zu Beginn einer Runde in Panik verfallen, fliehen oder Amok laufen.</Tip>
 
 <Tip>By default a unit can use reserved TU to fire their weapon, making it easier to move the maximum possible distance and still fire their weapon afterwards.</Tip>
 
