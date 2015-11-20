@@ -1,11 +1,8 @@
 <?xml version="1.0"?>
 <ModInfo>
-  <Name>xce (DE)</Name>
-  <VisibleName>X:CE Base Mod (DE)</VisibleName>
-  <Version>0.34</Version>
+  <Name>Xenonauts (DE)</Name>
+  <Version>1.59</Version>
   <Author>Selgald, GoethesFaust, PaulJay ...</Author>
-  <Languages>de</Languages>
-  <Translates>xce</Translates>
-  <Description>Deutsche Uebersetzung
+  <Description>Deutsche Uebersetzung für Xenonauts 1.59/1.63. Sie soll nur in Verbindung mit dieser Version(en) verwendet werden. Für die Community Edition X:CE 0.34 gibt es eine eigene Übersetzung.
   </Description>
 </ModInfo>
