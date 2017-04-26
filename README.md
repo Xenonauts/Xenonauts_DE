@@ -6,15 +6,15 @@ Die Modifikation **X:CE Base Mod** stellt die Dateien für Xenonauts: Communitye
 Bei dieser Modifikation handelt es sich nur um eine Übersetzung - zum Spielen muss auch die Modifikation **X:CE Base Mod** installiert/aktiviert werden. Für optimales Spielerlebnis werden weitere Modifikationen empfohlen: **X:CE Settings** und **X:CE Balance Adjustments**; für sie gibt es ebenfalls deutsche Übersetzungen: **X:CE Settings (DE)** bzw. **X:CE Balance Adjustments (DE)**. Achte bei der Aktivierung darauf, dass Übersetzungen immer über den entspechenden Modifikationen gesetzt sind.
 
 
-###Version (Version der Mod.):
+### Version (Version der Mod.):
 0.34
 
-###Autoren:
+### Autoren:
 - **Selgald** (Urheber)
 - **GoethesFaust** (xenopedia.xml, gcloading_tips.xml)
 - **PaulJay** (Administration, gcloading_tips.xml, strings.xml, scripts)
 
-###Zusammenfassung:
+### Zusammenfassung:
 Diese Version der deutschen Übersetzung beinhaltet Übersetzungen der Texte für Xenonauts: Communityversion (X:CE v0.34). Die Übersetzung besteht aus folgenden Dateien:
 
 - *xenopedia.xml* --  Das sind Texte, die man in der Xenopedia nachschlagen kann
@@ -23,5 +23,5 @@ Diese Version der deutschen Übersetzung beinhaltet Übersetzungen der Texte fü
 - *scripts* -- hier befinden sich Skriptdateien, die nur die Breite für Texte anpassen aber sonst identisch mit der Standardversion sind.
 - *gui/GroundCombat* -- hier befinden sich Bilder für den Bodenkampf mit in Deutsch übersetzten Texten (z.B. "Runde Beenden", "Unterdrückt" usw.).
 
-###Installation:
+### Installation:
 Zur Installation der deutschen Übersetzung entpacken Sie bitte die Archivierungsdatei nach *assets/mods* im Spielverzeichnis und benennen Sie den extrahierten Ordner in *'xce (DE)'* um. Anschließend benutzen Sie, bitte, den Mod Manager (Dieser ist im Launcher unter der Bezeichnung '*Modding Tools*' zu finden) um die deutsche Übersetzung zu aktivieren. Falls nicht automatisch geschen, stellen Sie am Ende sicher, dass die Übersetzung vor der Modifikation **X:CE Base Mod** gesetzt ist. Korrigieren Sie dies gegebenfalls durch das Klicken auf den *'Move Up'*-Button nach.
