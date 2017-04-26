@@ -1,21 +1,16 @@
-Xenonauts (DE)
-==============
-
+# Xenonauts (DE)
 Deutsche Übersetzung für Xenonauts (v1.59/X:CE), XNT und Lore+
 
-Version:
---------
+## Version:
 V0.97
 
-Autoren:
---------
+## Autoren:
 - Selgald (Urheber)
 - Thixotrop (er hat den gesamten Lore+ Part übersetzt.)
 - GoethesFaust (xenopedia.xml, gcloading_tips.xml)
 - PaulJay (Administration, gcloading_tips.xml, strings.xml, scripts)
 
 **Warnung:**
-
 Der nachfolgende Text stimmt nicht mehr ganz, da im Moment viele Änderungen stattfinden. Das Ziel ist, die Texte
 aus Lore+ und XNT komplett zu entfernen und die Einträge durch neue aus der aktuellsten Version X:CE zu ergänzen.
 
@@ -26,11 +21,11 @@ Diese Version der deutschen Übersetzung beinhaltet Übersetzungen der Texte fü
 - gcloading_tips.xml -- Hier sind Texte der Schnelltipps enthalten, die man im Ladebildschirm vor einer Bodenmission sieht.
 
 Im Moment sind die Texte des Hauptspiels zu 95%, Xenopedia zu 60% und Lore+ zu 90% übersetzt worden. Die Texte für XNT sind derzeit nur kompatibel aber noch nicht übersetzt worden.
-Bemerkung:
 
+**Bemerkung:**
 Die beiden Dateien lassen sich am besten mit dem Programm Excel editieren.
-Installation:
 
+## Installation:
 Es wird die Xenonauts Community Edition benötigt. Steam -> dort bei Xenonauts per Rechtsklick -> Eigenschaften -> Betas -> Community Edition auswählen
 
 Die X:CE bringt einen eigenen Modloader im launcher mit, der allerdings etwas buggy sein kann, und die automatische Modinstallation funktioniert leider nicht. Wenn ihr die Übersetzung per Modloader installiert, funktioniert diese nicht korrekt.
