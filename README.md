@@ -1,17 +1,20 @@
-#Xenonauts (DE)
+Xenonauts (DE)
+==============
 
 Deutsche Übersetzung für Xenonauts (v1.59/X:CE), XNT und Lore+
 
-##Version:
+Version:
+--------
 V0.97
 
-##Autoren:
+Autoren:
+--------
 - Selgald (Urheber)
 - Thixotrop (er hat den gesamten Lore+ Part übersetzt.)
 - GoethesFaust (xenopedia.xml, gcloading_tips.xml)
 - PaulJay (Administration, gcloading_tips.xml, strings.xml, scripts)
 
-###Warnung:
+**Warnung:**
 
 Der nachfolgende Text stimmt nicht mehr ganz, da im Moment viele Änderungen stattfinden. Das Ziel ist, die Texte
 aus Lore+ und XNT komplett zu entfernen und die Einträge durch neue aus der aktuellsten Version X:CE zu ergänzen.
